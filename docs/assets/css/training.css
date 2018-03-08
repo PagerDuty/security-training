@@ -1,0 +1,35 @@
+/* Kill the left margin so we can use the space for slides. */
+.article {
+  margin-left: 0px;
+}
+
+/* Hide the nav drawer when larger screen, want the space for slides. */
+@media only screen and (min-width: 959px) {
+  .drawer {
+    display: none;
+  }
+}
+
+/* Background should go full width. */
+.backdrop-paper:after {
+    margin-left: 0px
+}
+
+/* Display slide images by the side. */
+.article p img {
+  display: block;
+  float: left;
+  width: 46%;
+  margin-right: 2%;
+  margin-left: 2%;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Except on smaller screens. */
+@media only screen and (max-width: 720px) {
+  .article p img {
+    float: none;
+    width: 100%;
+    margin: 0%;
+  }
+}

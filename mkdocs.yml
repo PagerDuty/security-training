@@ -1,0 +1,42 @@
+# Project Information
+site_name: PagerDuty Security Training
+site_description: Public versions of PagerDuty's employee security training courses.
+site_author: PagerDuty, Inc.
+site_favicon: 'assets/img/icon.png'
+site_url: https://sudo.pagerduty.com
+
+# Copyright
+copyright: 'Copyright &copy; PagerDuty, Inc.'
+
+# Theme
+theme: 'material'
+theme_dir: 'theme'
+extra_css: ['assets/css/extra.css']
+extra:
+  logo: 'assets/img/icon.png'
+  cover: 'assets/img/cover.png'
+  palette:
+    primary: 'green'
+    accent: 'blue grey'
+  author:
+    github: 'PagerDuty'
+    twitter: 'PagerDuty'
+
+# Contents
+pages:
+  - Overview: 'index.md'
+  - For Everyone: 'for_everyone/index.md'
+#  - For Engineers: 'for_engineers/index.md' # Coming soon!
+
+# Analytics
+google_analytics: ['UA-8759953-1', 'auto']
+
+# Extensions
+markdown_extensions:
+  - toc(permalink=#)
+  - sane_lists:
+  - admonition:
+  - meta:
+  - pymdownx.extra:
+  - pymdownx.mark:
+  - pymdownx.tilde:

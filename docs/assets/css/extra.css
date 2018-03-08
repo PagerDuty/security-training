@@ -1,0 +1,546 @@
+/* Colfax Font */
+@font-face {
+  font-family: 'Colfax';
+  src: url('/fonts/colfax/ColfaxWebRegular.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Colfax';
+  src: url('/fonts/colfax/ColfaxWebRegularItalic.woff') format('woff');
+  font-style: italic;
+}
+
+/* Base icons for the mkdocs material theme. */
+@font-face {
+  font-family: 'Icon';
+  font-weight: normal;
+  font-style: normal;
+  src: url('/assets/fonts/icon.eot');
+  src: url('/assets/fonts/icon.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/icon.woff') format('woff'),
+       url('/assets/fonts/icon.ttf') format('truetype'),
+       url('/assets/fonts/icon.svg#pagerduty') format('svg');
+}
+
+/* The PD icon. */
+@font-face {
+  font-family: 'pagerduty';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/icons/pagerduty.eot');
+  src: url('/fonts/icons/pagerduty.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/icons/pagerduty.woff') format('woff'),
+       url('/fonts/icons/pagerduty.ttf') format('truetype'),
+       url('/fonts/icons/pagerduty.svg#pagerduty') format('svg');
+}
+
+/* Extra icons we've added, Fork, Note, etc. */
+@font-face {
+  font-family: 'icons';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/icons/icons.eot');
+  src: url('/fonts/icons/icons.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/icons/icons.woff') format('woff'),
+       url('/fonts/icons/icons.ttf') format('truetype'),
+       url('/fonts/icons/icons.svg#pagerduty') format('svg');
+}
+
+body, input {
+  font-family: 'Colfax', Helvetica, Arial, sans-serif;
+}
+
+pre, code {
+  font-family: 'Courier New', 'Courier', monospace;
+}
+
+/* Defaults */
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Prevent re-drawing of the backdrop when scrolling with mousewheel. Would cause weird artifacts
+in Chrome. */
+.backdrop {
+  position: fixed;
+}
+
+/* Change the colour theme to better match PagerDuty */
+
+/* background: pd-green */
+.repo a {
+  background: #25c151;
+}
+
+@media only screen and (max-width: 959px) {
+  .palette-primary-green .project {
+    background: #25c151;
+  }
+}
+
+/* background: pd-slate */
+.palette-primary-green,
+.palette-primary-green .footer,
+.palette-primary-green .header,
+.palette-primary-green .results .meta,
+.palette-primary-green .article table th {
+  background: #363636;
+}
+
+.palette-primary-green .article table th {
+  background: #555;
+}
+
+/* font: pd-green */
+.palette-primary-green .article h1,
+.palette-primary-green .article h2,
+.palette-primary-green .drawer .toc a.current,
+.palette-primary-green .drawer .toc a:focus,
+.palette-primary-green .drawer .toc a:hover,
+.palette-primary-green .article a:hover {
+  color: #25c151;
+}
+
+/* font: pd-slate */
+.palette-primary-green .article a,
+.palette-primary-green .article code,
+.palette-primary-green .article h1,
+.palette-primary-green .article h2 {
+  color: #363636;
+}
+
+/* Selected nav section */
+.palette-primary-green .drawer .anchor a {
+  border-left: 3px solid #25c151;
+}
+
+/* Hide the repository info under normal conditions, since we can just link to it in button. */
+div.repo_header {
+  display: none;
+}
+
+/* Adjust repo buttons */
+ul.repo {
+  margin-top: 0em;
+  margin-right: 1em;
+}
+
+/* Update icon for fork. */
+.icon-code-fork:before {
+  font-family: 'icons';
+  content: "\e900";
+}
+
+/* Correct header navigation. */
+.bar .path a {
+  display: inline;
+  font-size: 1em;
+}
+
+/* Fix a small offset on pages with breadcrumbs. */
+.title .path .icon {
+  vertical-align: -1.5px;
+}
+
+/* Fix offsets for mobile layouts. */
+@media only screen and (max-width: 1200px) {
+  ul.repo {
+    margin-top: 0.5em;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  div.repo_header {
+    display: block;
+  }
+
+  ul.repo {
+    margin-top: 24px;
+    margin-right: 0.5em;
+  }
+}
+
+/* Fix icon padding for GitHub. */
+.repo a .icon-github {
+  padding-right: 0.3em;
+}
+
+/* Hide the page title, already in the navbar */
+.article h1 {
+  display: none;
+}
+
+/* But show it when printing */
+@media print {
+  .article h1 {
+    display: block;
+    padding-top: 0em;
+    padding-bottom: 0.1em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    border-bottom: none;
+  }
+
+  /* Also add a heading when printing */
+  .article h1:before {
+    background: url(/assets/img/logo.png) 0em -0.07em no-repeat;
+    background-size: 7em;
+    display: block;
+    height: 2em;
+    width: 100%;
+    padding-left: 7.2em;
+    content: 'Security Training';
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 0.6em;
+    -webkit-print-color-adjust: exact; /* Force to show when printing. Chrome/Safari only :( */
+  }
+}
+
+
+/* Want the font to be bigger for articles, easier reading. */
+.article {
+	font-size: 1.45em;
+}
+
+/* Too much whitespace at the top, not enough at bottom */
+.article .wrapper {
+  padding: 56px 16px 132px !important;
+}
+
+@media only screen and (min-width: 720px) {
+  .article .wrapper {
+    padding: 70px 24px 126px !important;
+  }
+}
+
+/* Get rid of the whitespace when printing, let people set own margins. */
+@media print {
+  .article .wrapper {
+    padding: 0em !important;
+  }
+}
+
+ul, ol {
+  padding-left: 1em;
+}
+
+/* PagerDuty icon in main header */
+.icon-pagerduty:before {
+  display: inline-block;
+  font-family: 'pagerduty';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\0041";
+}
+
+/* Expanding border menu */
+.drawer .toc li a {
+	overflow: hidden;
+	position: relative;
+}
+
+.drawer .toc li a:before {
+  display: block;
+  content: '';
+  position: absolute;
+  height: 2em;
+  left: 0px;
+  top: 0.5em;
+  border-left: 5px solid #25c151;
+  transform: scaleY(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.drawer .toc li a:hover:before {
+	transform: scaleY(1);
+}
+
+/* Don't do it on active menu items */
+.drawer .toc a.current:hover:before,
+.drawer .toc li.anchor a:hover:before {
+  transform: scaleY(0);
+	display: none;
+}
+
+/* Don't overflow horizontally on nav */
+.drawer .toc ul li a {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+/* Change the title bar to include the PD logo */
+nav div.mainlogo {
+	width: 15em;
+	display: table-cell;
+}
+
+nav div.mainlogo a {
+  min-height: 3.4em;
+  margin-bottom: -1.2em;
+  width: 14.52em;
+
+  background: url(/assets/img/logo.svg) 0em 0.1em no-repeat;
+  background-size: contain;
+}
+
+nav div.mainlogo img {
+  display: none;
+}
+
+/* Remove logo in favour of page title for smaller mobile devices. */
+@media only screen and (max-width: 480px) {
+  nav div.mainlogo {
+    width: 0em;
+  }
+
+  nav div.mainlogo a {
+    width: 4em;
+    background: none;
+  }
+}
+
+/* Admonitions */
+
+/* Default */
+.admonition {
+  background: #25c151;
+}
+@media print { .admonition { background: #fff !important; padding: 0px !important; } }
+
+.admonition.warning a {
+  color: #000;
+}
+.admonition.warning a:hover {
+  color: #910000;
+}
+@media print { .admonition.warning, .admonition.warning a { color: #e84e40; } }
+
+/* Tip - green, flag icon (default) */
+.admonition.tip {
+  background: #25c151;
+}
+.admonition.tip a {
+  color: #fff;
+}
+.admonition.tip a:hover {
+  color: #000;
+}
+@media print { .admonition.tip, .admonition.tip a { color: #25c151; } }
+
+
+/* Info - grey, (i) icon */
+.admonition.info {
+  background: #607d8b;
+}
+.admonition.info .admonition-title:before {
+  font-family: 'icons';
+  content: "\e903";
+}
+@media print { .admonition.info, .admonition.info a { color: #607d8b; } }
+
+/* Question - blue, (?) icon */
+.admonition.question {
+  background: #2196f3;
+}
+.admonition.question .admonition-title:before {
+  font-family: 'icons';
+  content: "\e904";
+}
+@media print { .admonition.question, .admonition.question a { color: #2196f3; } }
+
+/* Note - indigo, notepad icon */
+.admonition.note {
+  background: #3f51b5;
+}
+.admonition.note .admonition-title {
+  text-indent: 0.05em;
+}
+.admonition.note .admonition-title:before {
+  font-family: 'icons';
+  content: "\e902";
+}
+@media print { .admonition.note, .admonition.note a { color: #3f51b5; } }
+
+@media print {
+  .admonition {
+    padding: 1em 2em !important;
+  }
+}
+
+/* Typography */
+h4 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.project .logo+.name {
+	font-size: 13px;
+}
+
+mark {
+  margin: 0 .25em;
+  padding: .0625em 0;
+  border-radius: .2rem;
+  background-color: rgba(255,235,59,.5);
+  -webkit-box-shadow: 0.25em 0 0 rgba(255,235,59,.5), -0.25em 0 0 rgba(255,235,59,.5);
+  box-shadow: 0.25em 0 0 rgba(255,235,59,.5), -0.25em 0 0 rgba(255,235,59,.5);
+  word-break: break-word;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.article a {
+  border-bottom: 1px solid;
+}
+
+abbr {
+  border-bottom: 1px dotted;
+  text-decoration: none;
+  cursor: help;
+}
+
+/* Code blocks */
+.article pre {
+  position: relative;
+}
+.article pre:before {
+  font-family: 'icons';
+  content: "\ea80";
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  color: #888;
+  font-size: 1.2em;
+}
+
+.article span.code,
+.article code {
+  font-family: monospace;
+  border-radius: 2px;
+  padding: 0.1em;
+  border: 1px solid #eee;
+  background: #f4f4f4;
+}
+
+.palette-primary-green .article code {
+  color: #00f;
+}
+
+.article pre code {
+  background: transparent;
+  border: none;
+}
+
+/* Icons */
+.button .icon:hover {
+  transition: color 250ms ease-in-out;
+  color: #25c151;
+}
+
+/* Images */
+.article .wrapper {
+	overflow: hidden;
+}
+
+/* Center all images */
+.article img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Image Captions */
+img + em {
+  position: relative;
+  font-size: 0.8em;
+  margin-right: -2.3em;
+  padding: 0em 1em;
+  float: right;
+  margin-top: -2em;
+  color: #000;
+  border-top-left-radius: 3px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/* Quotes */
+.article blockquote {
+  border-left: 4px solid #32689b;
+  background: #f7f7f7;
+  padding: 0.2em;
+  padding-left: 0.8em;
+  margin-top: 1em;
+  color: #101862;
+  font-style: italic;
+  position: relative;
+  margin-left: 3em;
+  width: 93%;
+}
+
+.article blockquote:before {
+  font-family: 'icons';
+  content: "\e901";
+  position: absolute;
+  top: 0.4em;
+  left: -1.5em;
+  color: #32689b;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2em;
+}
+
+.article blockquote p {
+  margin: 0em;
+  padding: 0.5em 0em;
+}
+
+/* Horizontal Rules */
+.article hr {
+  margin-top: 2em;
+  border-top: 2px solid #f4f4f4;
+}
+
+/* Don't care about copyright notice for this project, Apache License. */
+aside.copyright {
+  display: none;
+}
+
+/* Pagination arrow alignment fix. */
+.pagination .button {
+  vertical-align: 0em;
+}
+
+.pagination .button .icon {
+  vertical-align: .25em;
+}
+
+/* Make sure to show some previous titles even on smaller devices. */
+.pagination .previous { width: 40%; }
+.pagination .next { width: 60%; }
+
+.pagination .previous .direction,
+.pagination .previous .stretch {
+    display: table;
+}
+
+/* 404 Page */
+#error {
+  text-align: center;
+  padding: 0em 5em;
+}
+
+#error h1 {
+  display: block;
+	font-size: 2.5em;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  border-bottom: 1px solid #eee;
+}
+
+#error p {
+  font-style: italic;
+  color: #555;
+}
