@@ -2,7 +2,7 @@
 style: training
 ---
 
-This site provides all of the public material for PagerDuty's employee security training courses. Some sections have been redacted, as they contain confidential internal information, however those sections are clearly labelled, and a public description of the content is provided in it's place.
+This site provides all of the public material for PagerDuty's employee security training courses. Some sections have been redacted, as they contain confidential internal information, however those sections are clearly labelled, and a public description of the content is provided in its place.
 
 To learn more about our philosophy behind our security training program, and why we decided to build our own, you can read [Our Approach to Employee Security Training](https://www.pagerduty.com/blog/security-training-at-pagerduty), which provides more insights and background into our training program.
 
