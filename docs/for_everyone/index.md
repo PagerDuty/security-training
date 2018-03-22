@@ -617,7 +617,7 @@ Except that's what we're going to do now...
 <input type="checkbox" id="058" /><label for="058">![058](../slides/for_everyone/for_everyone.058.jpeg)</label>
 _058. EvilCorp customer database._
 
-Last night I went ahead and stole a customer database. Doesn't matter where I got it form. For all you know this could be the PagerDuty customer database, after all I'm an engineer who has access to that, aren't I? (It's not, but if that scared you for a moment, then you should familiarize yourself with our access control policies).
+Last night I went ahead and stole a customer database. Doesn't matter where I got it from. For all you know this could be the PagerDuty customer database, after all I'm an engineer who has access to that, aren't I? (It's not, but if that scared you for a moment, then you should familiarize yourself with our access control policies).
 
 This stolen database contains usernames, password hashes (that's the magic string), and a password hint. Some of you may be thinking that the password hint is cheating here. Websites don't store password hints, right? Well, some do. But you're right, most don't. So you can think of them as "Answers to Security Questions" if it makes you feel better (I'll talk more about security questions later).
 
@@ -806,7 +806,7 @@ _075. gLCbYt9MX._
 
 There's mixture of cases, it's 9 characters long, there are numbers in it, it's not a real word. The only thing really missing are special characters. I would wager that a lot of you might use worse passwords than this for a lot of things, and thought your passwords were safe. How do you feel about that now?
 
-I'm not showing you all this to scare you. Well, I guess I am a bit. But I should apologise, because I've actually let you all astray ever so slightly. The type of attack I just showed, using "Magic Lists", is not to hard to defend against.
+I'm not showing you all this to scare you. Well, I guess I am a bit. But I should apologise, because I've actually let you all astray ever so slightly. The type of attack I just showed, using "Magic Lists", is not too hard to defend against.
 
 ---
 
