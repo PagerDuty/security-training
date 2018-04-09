@@ -41,9 +41,9 @@ _002. Goal of the training._
 
 Why have I brought you all here today? What's the point of all this?
 
-The goal of today's training is to make sure that we can maintain and build customer trust by having a staff who are well training against the most common security threats that we face. It's not just about knowing what threats we're up against, it's about knowing how to protect us from those threats too.
+The goal of today's training is to make sure that we can maintain and build customer trust by having a staff who are well trained against the most common security threats that we face. It's not just about knowing what threats we're up against, it's about knowing how to protect us from those threats too.
 
-Despite our best efforts, the security team can't have eyes everywhere. We rely on all of you to help us to spot security issues and let us know about them.
+Despite our best efforts, the security team can't have eyes everywhere. We rely on all of you to help us spot security issues and let us know about them.
 
 ---
 
@@ -185,7 +185,7 @@ A "backdoor" is another type of fake security. This refers to when there's a sup
 <input type="checkbox" id="015" /><label for="015">![015](../slides/for_everyone/for_everyone.015.jpeg)</label>
 _015. Story in the Washington Post. [Reference](https://www.washingtonpost.com/local/trafficandcommuting/where-oh-where-did-my-luggage-go/)_
 
-You may remember a news story a few years ago in the Washington Post. It was around Thanksgiving, and they had an article all about how the TSA keep your bags safe during the holiday period. They held up TSA locks as an example. You've probably seen these locks, where you have a code or key to unlock it, but the TSA have some master keys to also unlock it. The article included a photos of these master keys. Quite a high resolution photo in fact. So I'm sure you can guess what happened next.
+You may remember a news story a few years ago in the Washington Post. It was around Thanksgiving, and they had an article all about how the TSA keep your bags safe during the holiday period. They held up TSA locks as an example. You've probably seen these locks, where you have a code or key to unlock it, but the TSA has some master keys to also unlock it. The article included a photos of these master keys. Quite a high resolution photo in fact. So I'm sure you can guess what happened next.
 
 ---
 
@@ -478,7 +478,7 @@ We don't read your emails, and automatic filtering only gets us so far. It's up 
 <input type="checkbox" id="045" /><label for="045">![045](../slides/for_everyone/for_everyone.045.jpeg)</label>
 _045. Not just phishing. [Reference](https://en.wikipedia.org/wiki/Social_engineering_(security)#Techniques_and_terms)_
 
-Social engineering isn't just about phishing, even though that's what I focussed on here. There are many more types of social engineering attacks we can face.
+Social engineering isn't just about phishing, even though that's what I focused on here. There are many more types of social engineering attacks we can face.
 
 For example, the meeting invite for this training said that there would be free cake and desserts served. Sorry to disappoint, but that was a lie, and is an example of "Baiting".
 
