@@ -15,6 +15,12 @@
     margin-left: 0px
 }
 
+/* Fix floating issue due to images being side by side. */
+.admonition.question {
+  clear: both;
+  border-top: 2em solid #fff;
+}
+
 /* Display slide images by the side. */
 .article p img {
   display: block;
@@ -31,5 +37,10 @@
     float: none;
     width: 100%;
     margin: 0%;
+    margin-bottom: 1em;
+  }
+
+  .admonition.warning {
+    border-top: 1em solid #fff;
   }
 }

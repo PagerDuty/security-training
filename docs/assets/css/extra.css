@@ -398,7 +398,7 @@ mark {
 }
 
 abbr {
-  border-bottom: 1px dotted;
+  border-bottom: 1px dotted #aaa;
   text-decoration: none;
   cursor: help;
 }

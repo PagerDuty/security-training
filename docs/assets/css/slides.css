@@ -161,6 +161,12 @@
   padding-left: 52%;
 }
 
+.article blockquote ul {
+  padding-left: 1em;
+  margin-top: 0em;
+  margin-bottom: 1em;
+}
+
 .article .admonition ul {
   padding-left: 1em;
 }
