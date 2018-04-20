@@ -897,7 +897,7 @@ Finally, not all websites let you make completely random passwords unfortunately
 <input type="checkbox" id="082" /><label for="082">![082](../slides/for_everyone/for_everyone.082.jpeg)</label>
 _082. Unique._
 
-Your passwords should be completely unique. Every single account you have should get it's own password, and you shouldn't follow patterns. I see advice sometimes where you just pick one password, then append the name of the website to it, that way you get a different password everywhere. This is bad advice, please don't follow it. Firstly, if I break one of your passwords, it's trivial to figure out your pattern, and secondly if you ever need to rotate your password on one site, you're going to have a bad time.
+Your passwords should be completely unique. Every single account you have should get its own password, and you shouldn't follow patterns. I see advice sometimes where you just pick one password, then append the name of the website to it, that way you get a different password everywhere. This is bad advice, please don't follow it. Firstly, if I break one of your passwords, it's trivial to figure out your pattern, and secondly if you ever need to rotate your password on one site, you're going to have a bad time.
 
 You can't assume anything about how a website stores your password. For all you know they could be storing the password directly (we call this "in the clear", or "in plaintext"). So you need to use a completely unique password for every single login. Anywhere you use the same password becomes vulnerable as soon as one of those sites gets breached. And remember, you may not know about a breach until years later.
 
