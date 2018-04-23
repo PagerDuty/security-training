@@ -5,7 +5,7 @@ description: This is an open-source version of 'Security Training for Everyone',
 ---
 
 !!! info "Security Training for Everyone"
-    This is an open-source version of "Security Training for Everyone", PagerDuty's internal employee security training, given to all PagerDuty employees as part of our annual security training program.
+    This is an [open-source](https://github.com/pagerduty/security-training) version of "Security Training for Everyone", PagerDuty's internal employee security training, given to all PagerDuty employees as part of our annual security training program.
 
     The main topics covered in this training are,
 
@@ -832,7 +832,7 @@ These others here used something called "MD5", that's just the name of the "Magi
 
 Hell, even Yahoo used MD5, they had it in their FAQ for the recent breach. They didn't specify if it was salted or not, which means it probably wasn't.
 
-If you're interested in the correct way to store passwords, come along to our next training session for engineers where I'll go into this in a lot more detail.
+If you're interested in the correct way to store passwords, come along to our [next training session for engineers](/for_engineers/) where I'll go into this in a lot more detail.
 
 ---
 
@@ -1573,6 +1573,9 @@ _142. Image credits._
 > Here are the credits for all the images used throughout this training material.
 
 ---
+
+!!!question "Spotted a Problem?"
+    Security is hard, and we're not perfect. There may be mistakes or misunderstandings in this training material. If you find a problem, please help us correct it! This project is [open-source on GitHub](https://github.com/pagerduty/security-training) and we appreciate all friendly contributions.
 
 *[SRE]: Site Reliability Engineering
 *[NDA]: Non-Disclosure Agreement
