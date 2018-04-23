@@ -5,9 +5,9 @@ description: This is an open-source version of 'Security Training for Engineers'
 ---
 
 !!!info "Security Training for Engineers"
-    This is an open-source version of "Security Training for Engineers", PagerDuty's internal technical security training, open to all PagerDuty employees as part of our continuous security training program.
+    This is an [open-source](https://github.com/pagerduty/security-training) version of "Security Training for Engineers", PagerDuty's internal technical security training, open to all PagerDuty employees as part of our continuous security training program.
 
-    Unlike our course [for Everyone](/for_everyone/), this course covers more technical topics and is more applicable to those in an engineering role. While it delves into various technical topics, it has been designed in such a way as it should be useful regardless of your skill level, whether you've just started your engineering career, or you've been doing this for years.
+    Unlike our course [for everyone](/for_everyone/), this course covers more technical topics and is more applicable to those in an engineering role. While it delves into various technical topics, it has been designed in such a way as it should be useful regardless of your skill level, whether you've just started your engineering career, or you've been doing this for years.
 
     While some of the material we present internally contains sensitive PagerDuty information, the majority consists of generic security lessons, presented in a light-hearted and informative way. Many employees asked for a version of the training they could share with friends and family. This site is the culmination of our efforts to do just that.
 
@@ -2021,6 +2021,9 @@ _210. Image credits._
 > Here are the credits for all the images used throughout this training material.
 
 ---
+
+!!!question "Spotted a Problem?"
+    Security is hard, and we're not perfect. There may be mistakes or misunderstandings in this training material. If you find a problem, please help us correct it! This project is [open-source on GitHub](https://github.com/pagerduty/security-training) and we appreciate all friendly contributions.
 
 *[DBMS]: Database Management System
 *[SQL]: Structured Query Language

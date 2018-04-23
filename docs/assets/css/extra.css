@@ -350,7 +350,15 @@ nav div.mainlogo img {
   font-family: 'icons';
   content: "\e904";
 }
+/* Fix link colours for questions, dark blue/green doesn't really work here. */
+.admonition.question a {
+  color: #fff;
+}
+.admonition.question a:hover {
+  color: #00f;
+}
 @media print { .admonition.question, .admonition.question a { color: #2196f3; } }
+
 
 /* Note - indigo, notepad icon */
 .admonition.note {

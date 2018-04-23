@@ -15,28 +15,14 @@
     margin-left: 0px
 }
 
-/* Fix floating issue due to images being side by side. */
-.admonition.question {
-  clear: both;
-  border-top: 2em solid #fff;
-}
-
-/* Fix link colours for questions, dark blue/green doesn't really work here. */
-.admonition.question a {
-  color: #fff;
-}
-
-.admonition.question a:hover {
-  color: #00f;
-}
-
 /* Display slide images by the side. */
 .article p img {
   display: block;
   float: left;
-  width: 46%;
-  margin-right: 2%;
-  margin-left: 2%;
+  width: 49%;
+  margin-bottom: 2em;
+  margin-right: .5%;
+  margin-left: .5%;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -47,9 +33,5 @@
     width: 100%;
     margin: 0%;
     margin-bottom: 1em;
-  }
-
-  .admonition.warning {
-    border-top: 1em solid #fff;
   }
 }
