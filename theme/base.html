@@ -100,6 +100,13 @@
           {% if not h1 %}
             <h1>{{ page_title | default(site_name, true)}}</h1>
           {% endif %}
+          {% if meta and meta.pdf %}
+          <div id="download-link">
+            <a href="{{ meta.pdf[0] }}" target="_blank" title="Download slides as PDF." data-action="download">
+              <i class="icon icon-download"></i>Slides
+            </a>
+          </div>
+          {% endif %}
           {{ content }}
           <aside class="copyright" role="note">
             {% if copyright %}
