@@ -2,6 +2,7 @@
 style: slides
 cover: slides/for_everyone/for_everyone.001.jpeg
 description: This is an open-source version of 'Security Training for Everyone', PagerDuty's internal employee security training, given to all PagerDuty employees as part of our annual security training program.
+pdf: /assets/pdf/pagerduty_security_training_for_everyone_public.pdf
 ---
 
 !!! info "Security Training for Everyone"

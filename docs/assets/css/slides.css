@@ -448,6 +448,57 @@ span.redacted {
   background: #f3f3f3;
 }
 
+/* PDF download link. */
+#download-link {
+  text-align: right;
+  margin-bottom: -4.5em;
+  margin-top: 2.3em;
+}
+
+#download-link a {
+  display: inline-block;
+  padding: 0 10px 0 6px;
+  font-size: 12px;
+  line-height: 30px;
+  height: 30px;
+  font-weight: 700;
+  border-bottom: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #25c151;
+  color: #fff;
+  border-radius: 3px;
+  -webkit-transition: box-shadow .4s,opacity .4s;
+  transition: box-shadow .4s,opacity .4s;
+}
+
+#download-link a .icon {
+  font-size: 18px;
+  vertical-align: -4px;
+  padding-right: 2px;
+}
+
+#download-link a:focus,
+#download-link a:hover {
+  box-shadow: 0 4px 7px rgba(0,0,0,.23),0 8px 25px rgba(0,0,0,.05);
+  opacity: .8;
+}
+
+/* For smaller screens, show button differently. */
+@media only screen and (max-width: 540px) {
+  #download-link {
+    margin-bottom: 0px;
+    margin-top: 1.3em;
+  }
+}
+
+/* Hide download link when printing. */
+@media print {
+  #download-link {
+    display: none;
+  }
+}
+
 /* Debugging outlines for lazy loading. */
 /*
 .article label.hidden { outline: 2px solid #f00 !important; }
