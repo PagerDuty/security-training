@@ -128,7 +128,7 @@ Finally, you should never ever be using customer data for your Hackdays, unless 
 _<input type="checkbox" id="012" /><label for="012">![012](../slides/for_engineers/for_engineers.012.jpeg)</label>_
 _012. Story Time._
 
-With that our of the way, let's jump into a bit of story time.
+With that out of the way, let's jump into a bit of story time.
 
 ---
 
@@ -180,7 +180,7 @@ OK, let's get started with some actual technical content. Our first main topic i
 <input type="checkbox" id="024" /><label for="024">![024](../slides/for_engineers/for_engineers.024.jpeg)</label>
 _024. SQL injection definition._
 
-What actually is it? This is the simplest one-liner I could some up with. It's any user input which is being _executed_ in an SQL query at runtime. That means the user is able to manipulate a database query based on their input.
+What actually is it? This is the simplest one-liner I could come up with. It's any user input which is being _executed_ in an SQL query at runtime. That means the user is able to manipulate a database query based on their input.
 
 ---
 
@@ -354,7 +354,7 @@ The other is time-based, where you can use the same technique, but add a time-de
 <input type="checkbox" id="042" /><label for="042">![042](../slides/for_engineers/for_engineers.042.jpeg)</label>
 _042. Escaping?_
 
-So how can we start to protect against SQL injection? Some folks like to try and add checks that will stop a statement from executing if it has "bad" words like `DROP` in it. Unfortunately, that isn't going to work. No only would you need to maintain such a blacklist, and be careful to make it case-insensitive, etc. But there's always going to be ways around it.
+So how can we start to protect against SQL injection? Some folks like to try and add checks that will stop a statement from executing if it has "bad" words like `DROP` in it. Unfortunately, that isn't going to work. Not only would you need to maintain such a blacklist, and be careful to make it case-insensitive, etc. But there's always going to be ways around it.
 
 Likewise, you might think that you can just escape all quotes from user input in order to stop the query being modified. Depending on the language you're using, these types of checks can also be bypassed in various sneaky ways. There's always going to be some strange [Unicode](https://en.wikipedia.org/wiki/Unicode) character you hadn't thought of that gets interpreted as a quote, or something silly like that. It's not really worth investing in these types of checks.
 
@@ -378,7 +378,7 @@ Surely there's a better way?!
 <input type="checkbox" id="044" /><label for="044">![044](../slides/for_engineers/for_engineers.044.jpeg)</label>
 _044. Use prepared statements._
 
-We want to use something called "Prepared Statements" to solve this problem. The is one of the most surefire ways to protect against SQL injection.
+We want to use something called "Prepared Statements" to solve this problem. This is one of the most surefire ways to protect against SQL injection.
 
 ---
 
