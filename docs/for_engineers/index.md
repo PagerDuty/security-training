@@ -1572,7 +1572,7 @@ This is an issue because HTTP is a stateless protocol. What does that mean exact
 <input type="checkbox" id="162" /><label for="162">![162](../slides/for_engineers/for_engineers.162.jpeg)</label>
 _162. Stateless._
 
-In a world without session management, each HTTP request happens in complete isolation. So let's say a user goes to login to a website. They say "Hi, I'm Bob, here's my password". The website see's their password, checks that it's them, and replies in the affirmative.
+In a world without session management, each HTTP request happens in complete isolation. So let's say a user goes to login to a website. They say "Hi, I'm Bob, here's my password". The website sees their password, checks that it's them, and replies in the affirmative.
 
 The user might then want to take a look at their profile. But without any session management, this new request has no previous context whatsoever, so the website would have no idea who they're talking to.
 
@@ -1603,7 +1603,7 @@ _165. Session example._
 
 So let's look at our original example, but in a world where cookies exist.
 
-The initial request from the user is the same, they tell the website who they are and that the want to login. The server checks that their password is correct, but before they respond to the user, it will create a "session". It will create a record of who the user is and that they're logged in, and will assign a unique identifier to this "session". The server will now reply to the user as before, but will include the cookie in it's response, telling the user's browser to remember that session identifier and to use it on all subsequent requests.
+The initial request from the user is the same, they tell the website who they are and that the want to login. The server checks that their password is correct, but before they respond to the user, it will create a "session". It will create a record of who the user is and that they're logged in, and will assign a unique identifier to this "session". The server will now reply to the user as before, but will include the cookie in its response, telling the user's browser to remember that session identifier and to use it on all subsequent requests.
 
 The client will then remember that information and store it in the browser.
 
@@ -1614,7 +1614,7 @@ The client will then remember that information and store it in the browser.
 <input type="checkbox" id="166" /><label for="166">![166](../slides/for_engineers/for_engineers.166.jpeg)</label>
 _166. Showing the profile._
 
-Now when it comes to the second request, where the user wants to see their profile, the browser will now contact the server, but this time it will include that unique identifier it was told to include. When the server receives the request, it will see this ID, and look it up in it's little database of sessions. If it finds a match, it can now see all the state about that user it needs to. It knows the user logged in previously, and then knows who's profile it should return. It can now send the response back to the user with the data they asked for.
+Now when it comes to the second request, where the user wants to see their profile, the browser will now contact the server, but this time it will include that unique identifier it was told to include. When the server receives the request, it will see this ID, and look it up in its little database of sessions. If it finds a match, it can now see all the state about that user it needs to. It knows the user logged in previously, and then knows who's profile it should return. It can now send the response back to the user with the data they asked for.
 
 The user is happy, since now they can finally see their profile.
 
@@ -1696,7 +1696,7 @@ We also want to protect our session IDs so that we limit the potential for them 
 
 When passing a cookie to the client, we want to be sure we set the `secure` and `httpOnly` flags on those cookies. This ensures that the session ID is only ever sent over a secure connection, and cannot be accessed via a client-side script (reducing the risk of it being stolen if someone exploits an XSS vulnerability for example). We also want to be sure we specify a domain, so that the cookie won't be shared with anyone else but us.
 
-The final things is to always make sure you generate a completely new session ID and send that to the user if their privileges ever get elevated (i.e they login). This helps to prevent session fixation, since the user would be in a new session once they've logged in.
+The final thing is to always make sure you generate a completely new session ID and send that to the user if their privileges ever get elevated (i.e they login). This helps to prevent session fixation, since the user would be in a new session once they've logged in.
 
 ---
 
