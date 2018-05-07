@@ -122,7 +122,7 @@ Of course, yes, I know this can be gamed. Yes, I know you can cheat. This seemed
 ### Question
 
 <input type="checkbox" id="009" /><label for="009">![009](../slides/for_everyone/for_everyone.009.jpeg)</label>
-_008. Bike locks._
+_009. Bike locks._
 
 Now a quick question to get things rolling. Let's say you're the healthy type, and you like cycle around the city. _(As you can probably tell from my physique, I am not one of these types)_. You are somewhere around the streets of San Francisco, and need to secure your bike. You have two choices, you can just leave it on the street without any lock at all, or you can take the morning off work and use 100 locks instead. Which do you chose?
 
@@ -133,7 +133,7 @@ Hopefully you've realised that both of these answers are absurd and not going to
 ### Security vs Convenience
 
 <input type="checkbox" id="010" /><label for="010">![010](../slides/for_everyone/for_everyone.010.jpeg)</label>
-_008. Security vs convenience._
+_010. Security vs convenience._
 
 
 The point I'm trying to make is that there's a trade-off between security and convenience, with two extreme ends of a spectrum. Too far one way, and we're not secure, too far the other, and we're secure but completely unusable. If you get a bunch of people in a room and ask them if they want to be secure, they'll say yes. But given the choice between being secure and having convenience, most folks opt for convenience.
@@ -383,7 +383,7 @@ If you do accidentally click a link in a phishing email, please let us know imme
 
 ### More Phishing Examples
 
-<input type="checkbox" id="030" /><label for="030">![030](../slides/redacted.jpeg)</label>
+<input type="checkbox" id="032" /><label for="032">![032](../slides/redacted.jpeg)</label>
 _032-036. Redacted slides._
 
 <span class="redacted">Redacted</span>
@@ -1419,7 +1419,7 @@ You'll also notice that these classifications exactly match the ones used for th
 ### Personal Devices
 
 <input type="checkbox" id="126" /><label for="126">![126](../slides/for_everyone/for_everyone.126.jpeg)</label>
-_125. No PagerDuty data on personal devices._
+_126. No PagerDuty data on personal devices._
 
 When it comes to handling data, it's important to make sure that certain data never leaves our secured environments.
 
@@ -1436,7 +1436,7 @@ This is also why it's important for you to let us know if your personal device i
 ### PagerDuty Devices
 
 <input type="checkbox" id="127" /><label for="127">![127](../slides/for_everyone/for_everyone.127.jpeg)</label>
-_125. No customer data on PagerDuty devices._
+_127. No customer data on PagerDuty devices._
 
 Likewise, you should never store customer data, even on PagerDuty devices! Customer data is never to leave our production environment under any circumstances.
 
