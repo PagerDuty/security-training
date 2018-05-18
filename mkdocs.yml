@@ -28,9 +28,6 @@ pages:
   - For Everyone: 'for_everyone/index.md'
   - For Engineers: 'for_engineers/index.md'
 
-# Analytics
-google_analytics: ['UA-8759953-1', 'auto']
-
 # Extensions
 markdown_extensions:
   - toc(permalink=#)
