@@ -1142,7 +1142,7 @@ If our previous example was encoding on output, it would have looked like this i
 <input type="checkbox" id="118" /><label for="118">![118](../slides/for_engineers/for_engineers.118.jpeg)</label>
 _118. Ember. [Reference](https://gist.github.com/jamesarosen/478db5faef370eac43fb)_
 
-So how to you do this encoding? It depends on the language you're using. We use a lot of Ember here at PagerDuty, and in Ember you just need to wrap variables with `{{ }}`. But, add one more `{ }` to the mix, and it will no longer encode your output. So you need to be very careful that you use the appropriate method.
+So how do you do this encoding? It depends on the language you're using. We use a lot of Ember here at PagerDuty, and in Ember you just need to wrap variables with `{{ }}`. But, add one more `{ }` to the mix, and it will no longer encode your output. So you need to be very careful that you use the appropriate method.
 
 ---
 
@@ -1614,7 +1614,7 @@ The client will then remember that information and store it in the browser.
 <input type="checkbox" id="166" /><label for="166">![166](../slides/for_engineers/for_engineers.166.jpeg)</label>
 _166. Showing the profile._
 
-Now when it comes to the second request, where the user wants to see their profile, the browser will now contact the server, but this time it will include that unique identifier it was told to include. When the server receives the request, it will see this ID, and look it up in its little database of sessions. If it finds a match, it can now see all the state about that user it needs to. It knows the user logged in previously, and then knows who's profile it should return. It can now send the response back to the user with the data they asked for.
+Now when it comes to the second request, where the user wants to see their profile, the browser will now contact the server, but this time it will include that unique identifier it was told to include. When the server receives the request, it will see this ID, and look it up in its little database of sessions. If it finds a match, it can now see all the state about that user it needs to. It knows the user logged in previously, and then knows whose profile it should return. It can now send the response back to the user with the data they asked for.
 
 The user is happy, since now they can finally see their profile.
 
@@ -1705,7 +1705,7 @@ The final thing is to always make sure you generate a completely new session ID 
 <input type="checkbox" id="175" /><label for="175">![175](../slides/for_engineers/for_engineers.175.jpeg)</label>
 _175. Protecting session data._
 
-We also need to protect the actual session data we're storing. As I mentioned earlier, we want to be sure we're storing it all server-side. We want to make sure that we have an expiration data in our session data itself, we shouldn't be relying on a user's cookie to expire to end the session, we need to make sure we proactively expire it on our side. Remember that a cookie is user supplied data, they can change the expiration date if they want.
+We also need to protect the actual session data we're storing. As I mentioned earlier, we want to be sure we're storing it all server-side. We want to make sure that we have an expiration date in our session data itself, we shouldn't be relying on a user's cookie to expire to end the session, we need to make sure we proactively expire it on our side. Remember that a cookie is user supplied data, they can change the expiration date if they want.
 
 Finally, when a user logs out, we want to completely destroy their session on the server side, so there's no chance of it accidentally keeping a user (or attacker) logged in.
 
