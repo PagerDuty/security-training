@@ -79,7 +79,7 @@ But I want to kick things off with some quick warnings...
 <input type="checkbox" id="007" /><label for="007">![007](../slides/for_engineers/for_engineers.007.jpeg)</label>
 _007. "The framework takes care of that for me..."_
 
-I often hear this statement from developers, that their framework of choice takes care of all the nitty gritty security things for them, so they don't need to understand how they work. I'm here to tell you that that is completely not the case. Rails, Akka, Symphony, whatever you use, you can't just blindly assume your framework or library of choice has you covered. Yes, it's convenient that they do all the heavy lifting for you, but you can't just abdicate your responsibility to understand and be able to repair security issues yourself.  
+I often hear this statement from developers, that their framework of choice takes care of all the nitty gritty security things for them, so they don't need to understand how they work. I'm here to tell you that that is completely not the case. Rails, Akka, Symfony, whatever you use, you can't just blindly assume your framework or library of choice has you covered. Yes, it's convenient that they do all the heavy lifting for you, but you can't just abdicate your responsibility to understand and be able to repair security issues yourself.  
 
 ---
 
