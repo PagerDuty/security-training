@@ -872,7 +872,7 @@ _080. Long. [Reference](http://www.lockdown.co.uk/?pg=combi&s=articles)_
 
 First, your passwords should be long. Hopefully it's mostly intuitive that the longer a password is, the harder it will be to break. At least in general. If your password is 20 of the same character, then that changes things a little.
 
-It's worth noting that it's now possible to break 8 character passwords in less than a day with current computation power, regardless of how it's stored. Now, you're average attacker won't have access to this kind of power, we're talking more about nation state actors here.
+It's worth noting that it's now possible to break 8 character passwords in less than a day with current computation power, regardless of how it's stored. Now, your average attacker won't have access to this kind of power, we're talking more about nation state actors here.
 
 Current Department of Defense standards recommend 15 or more characters for your password. I recommend 50 or more. I see some wide eyes in the audience, don't worry, I know what you're thinking, and I'll get to it shortly.
 
