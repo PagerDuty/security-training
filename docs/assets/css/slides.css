@@ -448,14 +448,15 @@ span.redacted {
   background: #f3f3f3;
 }
 
-/* PDF download link. */
-#download-link {
-  text-align: right;
-  margin-bottom: -4.5em;
-  margin-top: 2.3em;
+/* Download links. */
+.download-link {
+  float: right;
+  margin-top: 2.5em;
+  margin-left: 1em;
 }
 
-#download-link a {
+#download-link-pdf a,
+#download-link-keynote a {
   display: inline-block;
   padding: 0 10px 0 6px;
   font-size: 12px;
@@ -472,29 +473,31 @@ span.redacted {
   transition: box-shadow .4s,opacity .4s;
 }
 
-#download-link a .icon {
+.download-link a .icon {
   font-size: 18px;
   vertical-align: -4px;
   padding-right: 2px;
 }
 
-#download-link a:focus,
-#download-link a:hover {
+.download-link a:focus,
+.download-link a:hover {
   box-shadow: 0 4px 7px rgba(0,0,0,.23),0 8px 25px rgba(0,0,0,.05);
   opacity: .8;
 }
 
 /* For smaller screens, show button differently. */
 @media only screen and (max-width: 540px) {
-  #download-link {
-    margin-bottom: 0px;
+  .download-link {
+    display: block;
     margin-top: 1.3em;
+    float: none;
+    text-align: right;
   }
 }
 
 /* Hide download link when printing. */
 @media print {
-  #download-link {
+  .download-link {
     display: none;
   }
 }
