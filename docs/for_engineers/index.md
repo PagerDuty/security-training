@@ -3,6 +3,7 @@ style: slides
 cover: slides/for_engineers/for_engineers.001.jpeg
 description: This is an open-source version of 'Security Training for Engineers', PagerDuty's internal employee technical security training, open to all PagerDuty employees as part of our continuous security training program.
 pdf: /assets/pdf/pagerduty_security_training_for_engineers_public.pdf
+keynote: /assets/keynote/pagerduty_security_training_for_engineers_public.key
 ---
 
 !!!info "Security Training for Engineers"

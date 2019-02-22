@@ -2,7 +2,7 @@
 style: training
 ---
 
-We run two internal employee security training courses at PagerDuty; one [for everyone](/for_everyone/) covering a variety of general security topics relevant to all employees, and one [for engineers](/for_engineers/) covering more technical security concepts relevant to those in our engineering department. This site provides all of the public material for both of these courses.
+We run two internal employee security training courses at PagerDuty; one [for everyone](/for_everyone/) covering a variety of general security topics relevant to all employees, and one [for engineers](/for_engineers/) covering more technical security concepts relevant to those in our engineering department. This site provides all of the public material for both of these courses, including PDF exports of the slides, and the original [Keynote](https://www.apple.com/keynote/) files so you can adapt them more easily for your own organizations.
 
 To learn more about the philosophy behind our security training program, and why we decided to build our own, you can read "[Our Approach to Employee Security Training](https://www.pagerduty.com/blog/security-training-at-pagerduty)", which provides more insights and background into our training program. To jump straight in, click one of the images below to view the relevant training course.
 
