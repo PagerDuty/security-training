@@ -28,7 +28,7 @@ keynote: /assets/keynote/pagerduty_security_training_for_everyone_public.key
 <input type="checkbox" id="001" /><label for="001">![001](../slides/for_everyone/for_everyone.001.jpeg)</label>
 _001. "Security Training for Everyone, February 2018"_
 
-Welcome to "Security Training for Everyone", hopefully you all fall under the category of "Everyone", if not, then you're probably in the wrong place. This is our annual employee security training session, and is a requirement to both satisfy our obligation to customers, but also to pass our compliance audits. This stuff is really important, so I'd like to ask you all to pay as close attention as you can. If you get paged and have to leave, that's fine, I'll followup with you after to fill in the things you missed.
+Welcome to "Security Training for Everyone", hopefully you all fall under the category of "Everyone", if not, then you're probably in the wrong place. This is our annual employee security training session, and is a requirement to both satisfy our obligation to customers, but also to pass our compliance audits. This stuff is really important, so I'd like to ask you all to pay as close attention as you can. If you get paged and have to leave, that's fine, I'll follow up with you after to fill in the things you missed.
 
 For those who've not met me, "Hi, I'm Rich". I'm on the security team here at PagerDuty, and was formerly on the Operations team before it became known as the SRE team. If you've been going through our Incident Commander training, then you will likely have met me there already. If not, then ... you should come to our Incident Commander training, it's great. You might also have seen me in that [BabyDuty blog post](https://www.pagerduty.com/blog/babyduty/) from last year where I basically compared being a parent to managing an incident response process.
 
@@ -99,7 +99,7 @@ _006. Redacted slide._
 <input type="checkbox" id="007" /><label for="007">![007](../slides/for_everyone/for_everyone.007.jpeg)</label>
 _007. Our job as a security team._
 
-Why does the security team even exist? Despite what you may think, we’re not here to say “No” to everything, or to chastise you for doing something "wrong". We’re here to keep PagerDuty secure, and to make it easy for you to do the right (i.e. secure) thing automatically. Never be afraid to come to us for help, or to let us know you may have done something that put us at risk. We’d rather know about it than not! If we've implemented a security feature that has made your life unnecessarily more annoying, we want to know about that too, since our goal isn't to add features that make your lives harder.
+Why does the security team even exist? Despite what you may think, we’re not here to say “No” to everything, or to chastise you for doing something "wrong". We’re here to keep PagerDuty secure, and to make it easy for you to do the right (i.e. secure) thing automatically. Never be afraid to come to us for help, or to let us know you may have done something that put us at risk. We’d rather know about it than not! If we've implemented a security feature that has made your life unnecessarily more annoying, we want to know about that too, since our goal isn't to add features that make your life harder.
 
 We're not here to be a bottleneck either, you'll notice that user access reviews don't go through the security team, and we don't have to sign-off on everything security related. Teams are trusted to make their own decisions (within reason).
 
@@ -125,7 +125,7 @@ Of course, yes, I know this can be gamed. Yes, I know you can cheat. This seemed
 <input type="checkbox" id="009" /><label for="009">![009](../slides/for_everyone/for_everyone.009.jpeg)</label>
 _009. Bike locks._
 
-Now a quick question to get things rolling. Let's say you're the healthy type, and you like cycle around the city. _(As you can probably tell from my physique, I am not one of these types)_. You are somewhere around the streets of San Francisco, and need to secure your bike. You have two choices, you can just leave it on the street without any lock at all, or you can take the morning off work and use 100 locks instead. Which do you chose?
+Now a quick question to get things rolling. Let's say you're the healthy type, and you like to cycle around the city. _(As you can probably tell from my physique, I am not one of these types)_. You are somewhere around the streets of San Francisco, and need to secure your bike. You have two choices, you can just leave it on the street without any lock at all, or you can take the morning off work and use 100 locks instead. Which do you chose?
 
 Hopefully you've realised that both of these answers are absurd and not going to work. Using no lock leaves you with no security at all and your bike won't be there when you return, whereas using 100 locks will leave your bike very secure, but you'll need to take the day off in order to lock and unlock it.
 
@@ -187,7 +187,7 @@ A "backdoor" is another type of fake security. This refers to when there's a sup
 <input type="checkbox" id="015" /><label for="015">![015](../slides/for_everyone/for_everyone.015.jpeg)</label>
 _015. Story in the Washington Post. [Reference](https://www.washingtonpost.com/local/trafficandcommuting/where-oh-where-did-my-luggage-go/)_
 
-You may remember a news story a few years ago in the Washington Post. It was around Thanksgiving, and they had an article all about how the TSA keep your bags safe during the holiday period. They held up TSA locks as an example. You've probably seen these locks, where you have a code or key to unlock it, but the TSA has some master keys to also unlock it. The article included a photos of these master keys. Quite a high resolution photo in fact. So I'm sure you can guess what happened next.
+You may remember a news story a few years ago in the Washington Post. It was around Thanksgiving, and they had an article all about how the TSA keep your bags safe during the holiday period. They held up TSA locks as an example. You've probably seen these locks, where you have a code or key to unlock it, but the TSA also has master keys to unlock it. The article included a photo of these master keys. Quite a high resolution photo in fact. So I'm sure you can guess what happened next.
 
 ---
 
@@ -200,7 +200,7 @@ Yep, you can now 3D print your own TSA master keys in the comfort of your own ho
 
 Any security provided by these locks are now ineffective. You might still deter a few folks, but anyone who's determined to get in your bags will now have a much easier time of doing it.
 
-Backdoors pop up all over the place. Do any of you have a modem provided by your ISP? Pretty much every one of them has a backdoor on them for the purposes of customer support. A secret password that the customer support agents know, usually derived from your modem serial number in some way, that gives them the ability to change settings if you call them up. A lot of times attackers can figure out the patterns used and also get access to your modems. Google ["ARRIS modem backdoor"](https://encrypted.google.com/search?q=ARRIS+modem+backdoor) if you want to read about one example.
+Backdoors pop up all over the place. Do any of you have a modem provided by your ISP? Pretty much every one of them has a backdoor on them for the purposes of customer support. A secret password that the customer support agents know, usually derived from your modem serial number in some way, that gives them the ability to change settings if you call them up. A lot of times attackers can figure out the patterns used and also get access to your modem. Google ["ARRIS modem backdoor"](https://encrypted.google.com/search?q=ARRIS+modem+backdoor) if you want to read about one example.
 
 Hopefully you're starting to see why faking security is a bad thing, and something we want to stay away from.
 
@@ -295,7 +295,7 @@ Taking it a step further, sometimes you don't even need to lay a trap, you can j
 
 It gets better, because often the replies will be _"Looks great, what does the back look like?"_, and then they'll go and post a picture of the back too!
 
-I really hope none of you would fall for anything like this.
+I really hope that none of you would fall for anything like this.
 
 These are all interesting to see, but the type of attack we care most about are the more targeted ones.
 
@@ -577,7 +577,7 @@ _054. Irreversible._
 
 The second is that it's irreversible. If you only have the magic string, there's no amount of fancy mathematics or algorithms that can get you back to the password.
 
-The only way you know that that password goes to that magic string, is if you already knew that that passwords goes to that magic string.
+The only way you know that password goes to that magic string, is if you already knew that passwords goes to that magic string.
 
 ---
 
@@ -806,7 +806,7 @@ Some of you may be looking at that password and getting pretty scared. I mean, i
 <input type="checkbox" id="075" /><label for="075">![075](../slides/for_everyone/for_everyone.075.jpeg)</label>
 _075. gLCbYt9MX._
 
-There's mixture of cases, it's 9 characters long, there are numbers in it, it's not a real word. The only thing really missing are special characters. I would wager that a lot of you might use worse passwords than this for a lot of things, and thought your passwords were safe. How do you feel about that now?
+There's a mixture of cases, it's 9 characters long, there are numbers in it, it's not a real word. The only thing really missing are special characters. I would wager that a lot of you might use worse passwords than this for a lot of things, and thought your passwords were safe. How do you feel about that now?
 
 I'm not showing you all this to scare you. Well, I guess I am a bit. But I should apologise, because I've actually let you all astray ever so slightly. The type of attack I just showed, using "Magic Lists", is not too hard to defend against.
 
@@ -860,7 +860,7 @@ _079. Best practices._
 
 By following best practices with your passwords, you can massively reduce the chance that you'll succumb to an attack on another website, regardless of how they store your information.
 
-If you use a different password everywhere, then only the password for that service is broken. Since the attacker will likely already have all information stored with that service, they're not going to get any additional information they didn't already have.
+If you use a different password everywhere, then only the password for that service is broken. Since the attacker will likely already have all the information stored with that service, they're not going to get any additional information they didn't already have.
 
 So, your passwords should all be long, random, unique, and private. Now, a lot of you will likely be thinking the same thing right now, and I assure you that I'll get to the elephant in the room soon. But first, I want to talk about each of these criteria, and why they're important.
 
@@ -890,7 +890,7 @@ So while words like `letmein` aren't in the English dictionary, they will be nea
 
 You need to make them completely random, and humans are very bad at random. Even mashing your keyboard you're probably alternating your right and left hands, meaning there's patterns that can be implied. Computers are the thing that's going to be breaking your passwords, so a computer should be the one generating it too.
 
-Finally, not all websites let you make completely random passwords unfortunately. Some of them won't let you use certain characters, because of the way their systems work (this is usually an indication they're not storing passwords properly). You need to work within these restrictions, but use as many of the other available characters as you can in your passwords.
+Finally, not all websites let you make completely random passwords, unfortunately. Some of them won't let you use certain characters, because of the way their systems work (this is usually an indication they're not storing passwords properly). You need to work within these restrictions, but use as many of the other available characters as you can in your passwords.
 
 ---
 
@@ -1037,7 +1037,7 @@ Some of you may be thinking "aren't we just putting all our eggs in one basket t
 <input type="checkbox" id="093" /><label for="093">![093](../slides/for_everyone/for_everyone.093.jpeg)</label>
 _093. Password managers don't have to be perfect. [Reference](https://www.troyhunt.com/password-managers-dont-have-to-be-perfect-they-just-have-to-be-better-than-not-having-one/)_
 
-And you're right, that is a concern. But we're playing the odds. It is much more likely that you will get compromised if you use the same password everywhere, than it is that an attacker can physically take your password manager _AND_ break your master password. This is why it's important to chose a strong master password.
+And you're right, that is a concern. But we're playing the odds. It is much more likely that you will get compromised if you use the same password everywhere, than it is that an attacker can physically take your password manager _AND_ break your master password. This is why it's important to choose a strong master password.
 
 This quote from Troy Hunt explains it well. Password managers don't have to be perfect, they just have to be better than not having one.
 
@@ -1072,7 +1072,7 @@ Another tip is to type out the password lots of times in a text editor, in order
 <input type="checkbox" id="096" /><label for="096">![096](../slides/for_everyone/for_everyone.096.jpeg)</label>
 _096. But Wait, There's More!._
 
-But wait, there's more! Just because we now have a good process for passwords, doesn't mean than we're done.
+But wait, there's more! Just because we now have a good process for passwords, doesn't mean that we're done.
 
 ---
 
@@ -1083,7 +1083,7 @@ _097. Password equivalency._
 
 There's some things that are basically the same as your password. For example, security question answers. If I have that information, I can likely gain access to your account as if I had your password.
 
-Personal information too, since a lot of website will allow you to reset your account based on that information. Does that shopping website really need to know your date of birth? Probably not. Use a fake one and put it into your password manager.
+Personal information too, since a lot of websites will allow you to reset your account based on that information. Does that shopping website really need to know your date of birth? Probably not. Use a fake one and put it into your password manager.
 
 Two-factor secrets are different, they're not equivalent to a password, but I've listed them here since they should be treated as such.
 
@@ -1133,7 +1133,7 @@ One thing that stood out about these changes are that United called these securi
 <input type="checkbox" id="101" /><label for="101">![101](../slides/for_everyone/for_everyone.101.jpeg)</label>
 _101. Knowledge, possession, inherence. [Reference](https://en.wikipedia.org/wiki/Multi-factor_authentication)_
 
-You have have heard the term "multi-factor authentication", or "two-factor authentication" a lot. But what exactly is it?
+You have heard the term "multi-factor authentication", or "two-factor authentication" a lot. But what exactly is it?
 
 In the field of authentication, there are three main types of evidence (or "factors") you can provide. These are called "Knowledge", "Possession", and "Inherence".
 
@@ -1164,7 +1164,7 @@ _104. Two-Factor._
 
 The idea of two-factor authentication is that you pick two of these factors, and require them in order to authenticate a user. While an attacker might be able to remotely steal your password, it's pretty unlikely they'd also be able to physically steal your phone or get a fingerprint. Likewise, if an attacker can physically steal your phone, it's unlikely they'd also be able to get your password.
 
-As you can probably now understand, the United Airlines authentication I showed earlier is not two-factor authentication, as security question answers are the same as you passsword, they're both "Something you know".
+As you can probably now understand, the United Airlines authentication I showed earlier is not two-factor authentication, as security question answers are the same as you password, they're both "Something you know".
 
 In order for two-factor authentication to be most effective, it's important not to store the two-factor codes with your passwords. This goes back to that security vs convenience trade-off I talked about at the start. It's very convenient to have them in the same place, but then if an attacker gets one, it means they get the other too.
 
@@ -1179,7 +1179,7 @@ This all applies to backup codes too. Typically you should just print those off 
 <input type="checkbox" id="105" /><label for="105">![105](../slides/for_everyone/for_everyone.105.jpeg)</label>
 _105. Yubikeys._
 
-We use Yubikeys for the most part, they're a little USB device with a touch sensitive contact on one side. You just plug it in and touch the button to verify the "something you have" factor. The majority of folks find this to be the most convenient two-factor method we offer, although you're welcome to use any of the other two-factor methods available to you if you prefer those. The only one we don't allow is SMS, since there are some security issues with it. But if you prefer to use the 6 digit codes from Google Authenticator, you're more than welcome to use those.
+We use Yubikeys for the most part, they're a little USB device with a touch sensitive contact on one side. You just plug it in and touch the button to verify the "something you have" factor. The majority of folks find this to be the most convenient two-factor method we offer, although you're welcome to use any of the other two-factor methods available to you if you prefer those. The only one we don't allow is SMS, since there are some security issues with it. But if you prefer to use the 6 digit code from Google Authenticator, you're more than welcome to use those.
 
 All PagerDuty issued Yubikeys are yours to keep, so you can feel free to use them for personal accounts if you like (Google, Facebook, Dropbox, etc). If you have a personal Yubikey already, we're also more than happy to register it in our system so you can use it for your PagerDuty accounts, it may require us to reprogram it and lose some of your existing configuration though. We can work with you to limit the impact.
 
@@ -1267,7 +1267,7 @@ Likewise, if you're following someone through a door and they ask you to tap you
 <input type="checkbox" id="113" /><label for="113">![113](../slides/for_everyone/for_everyone.113.jpeg)</label>
 _113. Building Keycards._
 
-Speaking of keycards, please keep them with you at all times. Don't leave them at your desks. You've no doubt noticed that keycards are required on all doors that access the building.
+Speaking of keycards, please keep them with you at all times. Don't leave them at your desk. You've no doubt noticed that keycards are required on all doors that access the building.
 
 As we grow as a company, we're probably going to need to start putting photos on the keycards too. Although I personally question the effectiveness of that, since most people don't look at name badges anyway. Also we want to make sure not to put the company name on the keycard, otherwise it gives away where the keycard can be used when it gets lost. It'd be like putting your home address on your house key.
 
@@ -1405,7 +1405,7 @@ You can view a more detailed description of our data handling policies on the wi
 <input type="checkbox" id="125" /><label for="125">![125](../slides/for_everyone/for_everyone.125.jpeg)</label>
 _125. Wiki page classifications.._
 
-Speaking of the wiki, you will notice that every link in the security wiki has a coloured label next to it which identifies which classification that particular link or file is subject to, and how it can disseminated.
+Speaking of the wiki, you will notice that every link in the security wiki has a coloured label next to it which identifies which classification that particular link or file is subject to, and how it can be disseminated.
 
 * *Public* can be shared with anyone.
 * *Restricted* is only to be shared with customers who are under an NDA.
@@ -1493,7 +1493,7 @@ GDPR goes into effect on 25th May 2018, and has very strict rules for how person
 
 We are mostly considered a "Data Processor" under GDPR, rather than a Data Controller. Our customers are the data controller (they control the data of their employees), and we process their data on their behalf. Any customers who are subject to GDPR as controllers will need to execute a Data Processing Agreement (DPA) with us if we are to continue processing their data. Since we also have third-parties which process customer data on _our_ behalf (for example, our notification and telephony providers), we will also need to execute DPA's with them. It's worth noting that there are also a few cases where we would be considered a Data Controller, such as for our UK based employees.
 
-We'll need to include extra steps in our development processes to include data protection from the onset of the designing our systems, rather than something that's added on later.
+We'll need to include extra steps in our development processes to include data protection from the onset of designing our systems, rather than something that's added on later.
 
 Data portability is the right for a data subject (i.e. our users) to receive the personal data we have stored which concerns them. We need to provide this in a "commonly used and machine readable format". The user also has the right to transmit that data to another controller. Our current API satisfies this constraint, since it allows users to retrieve all the information we have on them, and they can export it and send it to another provider as they see fit.
 
@@ -1531,7 +1531,7 @@ _133-135. Redacted slides._
 _<input type="checkbox" id="136" /><label for="136">![136](../slides/for_everyone/for_everyone.136.jpeg)</label>_
 _136. Would you like to know more?_
 
-And that's it! All of the topics I had. I hope you all learned something useful, and if not, I hope you at least had a laugh at some of the jokes. If you want to know more about any of the material here, or anything security related that I didn't get chance to cover, here are some ways you can find out more.
+And that's it! All of the topics I had. I hope you all learned something useful, and if not, I hope you at least had a laugh at some of the jokes. If you want to know more about any of the material here, or anything security related that I didn't get a chance to cover, here are some ways you can find out more.
 
 ---
 
@@ -1550,7 +1550,7 @@ _137-139. Redacted slides._
 <input type="checkbox" id="140" /><label for="140">![140](../slides/for_everyone/for_everyone.140.jpeg)</label>
 _140. Llama._
 
-And for all of you waiting for the animal to go with the colour from the start, it's Llama. So you'll be getting a feedback survey in a few moments, just enter the colour from the start, and this animal, and that will "prove" that you attended the security training for this year.
+And for all of you waiting for the animal to go with the colour from the start, it's a Llama. So you'll be getting a feedback survey in a few moments, just enter the colour from the start, and this animal, and that will "prove" that you attended the security training for this year.
 
 You'll also have a chance to provide feedback on the training, which will shape how we change it next year. I will assume any negative feedback about my jokes are all in jest.
 
