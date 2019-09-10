@@ -7,6 +7,7 @@
   <head>
     <meta charset="utf-8">
     {% set title = page_title ~ ' - ' ~ site_name if page_title else site_name %}
+    {% if meta and meta.title %}{% set title = meta.title[0] ~ ' - ' ~ site_name %}{% endif %}
     <title>{{ title }}</title>
 
     <!-- Author and License -->
@@ -19,21 +20,20 @@
 
     <!-- Mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-    <meta name="theme-color" content="#363636" />
+    <meta name="theme-color" content="#ffffff" />
 
     <!-- Canonical Link -->
     {% if canonical_url %}<link rel="canonical" href="{{ canonical_url }}">{% endif %}
 
     <!-- Favicon -->
-    {% set favicon = favicon | default("assets/images/favicon-e565ddfa3b.ico", true) %}
-    <link rel="shortcut icon" type="image/x-icon" href="{{ base_url }}/{{ favicon }}" />
-    <link rel="icon" type="image/x-icon" href="{{ base_url }}/{{ favicon }}" />
+    <link rel="shortcut icon" type="image/png" href="/{{ config.extra.favicon }}" />
+    <link rel="icon" type="image/png" href="/{{ config.extra.favicon }}" />
+    <link rel="apple-touch-icon" href="/{{ config.extra.favicon }}">
 
     <!-- Apple -->
     <meta name="apple-mobile-web-app-title" content="{{ site_name }}" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    {% if config.extra.logo %}<link rel="apple-touch-icon" href="{{ base_url }}/{{ config.extra.logo }}">{% endif %}
 
     <!-- Open Graph -->
     <meta property="og:url" content="{{ canonical_url }}" />

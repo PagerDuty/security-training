@@ -138,11 +138,10 @@ With that out of the way, let's jump into a bit of story time.
 <input type="checkbox" id="013" /><label for="013">![013](../slides/redacted.jpeg)</label>
 _013-020. Redacted slides._
 
-<span class="redacted">Redacted</span>
-> This series of redacted slides went through the story of how a critical security vulnerability was responsibly disclosed to us by a security researcher. We went over how the bug was reported to us, how we confirmed its validity, showed exactly where in our code the bug was (and why it was an issue), and how it was fixed. Due to the sensitive nature of the bug, we've chosen to redact this section.
->
-> One thing worth sharing though is that one of the lessons in the redacted slides was related to the fact the bug was caused by a missing check in the code. This type of bug is very difficult to detect with automated tools, since the existing code itself is perfectly valid, the vulnerability comes from the absence of code.
->
+???+ warning "Redacted Content"
+    This series of redacted slides went through the story of how a critical security vulnerability was responsibly disclosed to us by a security researcher. We went over how the bug was reported to us, how we confirmed its validity, showed exactly where in our code the bug was (and why it was an issue), and how it was fixed. Due to the sensitive nature of the bug, we've chosen to redact this section.
+
+    One thing worth sharing though is that one of the lessons in the redacted slides was related to the fact the bug was caused by a missing check in the code. This type of bug is very difficult to detect with automated tools, since the existing code itself is perfectly valid, the vulnerability comes from the absence of code.
 
 ---
 
@@ -162,8 +161,8 @@ It's not all doom and gloom though, there was a happy ending here...
 <input type="checkbox" id="022" /><label for="022">![022](../slides/redacted.jpeg)</label>
 _022. Redacted slide._
 
-<span class="redacted">Redacted</span>
-> This slide showed details of our response to the security issue, including how long it took us to resolve it from the initial report (3h 47m), and some of our correspondence with the researcher (which is the reason for redacting this slide).
+???+ warning "Redacted Content"
+    This slide showed details of our response to the security issue, including how long it took us to resolve it from the initial report (3h 47m), and some of our correspondence with the researcher (which is the reason for redacting this slide).
 
 ---
 
@@ -212,7 +211,8 @@ _027. Login page results._
 
 The SQL statement is valid. The username and password are correct, so a single result is returned for the user, and they would now be logged in as this user.
 
-> The keen eyed amongst you will have spotted that passwords should never be stored this way. We'll talk about properly storing passwords later. Remember, there's a big red icon in the corner here, never implement a login page like this!
+???+ comment "Presenter's Comment"
+    The keen eyed amongst you will have spotted that passwords should never be stored this way. We'll talk about properly storing passwords later. Remember, there's a big red icon in the corner here, never implement a login page like this!
 
 OK, so that's all well and good. That's how the developer intended it to work.
 
@@ -319,7 +319,8 @@ _038. Load file._
 
 Like I said, it's pretty much game over once you have an SQL injection point. You could use `LOAD_FILE` to load things from the filesystem too.
 
-> It's worth noting that this isn't always possible, it will depend on permissions and any extra security the operating system has, but it's feasible at least.
+???+ comment "Presenter's Comment"
+    It's worth noting that this isn't always possible, it will depend on permissions and any extra security the operating system has, but it's feasible at least.
 
 ---
 
@@ -775,7 +776,8 @@ The idea is that we want to be sure that if any of our communications are interc
 
 Everything at PagerDuty is encrypted in transit automatically, we use HTTPS/TLS for all endpoints, and all other communication is encrypted by IPsec in transport mode by default. You need to try very hard to send something unencrypted around our infrastructure.
 
-> Shameless plug: Two ex-PagerDuty engineers, Doug Barth and Evan Gilman, literally wrote the book on [Zero Trust Networks](http://shop.oreilly.com/product/0636920052265.do), which is the methodology PagerDuty uses for our network. If you're interested in learning more about our IPsec mesh network, [Doug gave a talk on it at Velocity Conf in 2015](https://speakerdeck.com/dougbarth/ipsec-mesh-network-perfect-for-the-cloud).
+???+ comment "Presenter's Comment"
+    Shameless plug: Two ex-PagerDuty engineers, Doug Barth and Evan Gilman, literally wrote the book on [Zero Trust Networks](http://shop.oreilly.com/product/0636920052265.do), which is the methodology PagerDuty uses for our network. If you're interested in learning more about our IPsec mesh network, [Doug gave a talk on it at Velocity Conf in 2015](https://speakerdeck.com/dougbarth/ipsec-mesh-network-perfect-for-the-cloud).
 
 ---
 
@@ -841,7 +843,8 @@ How we handle data depends on what type of data it is. For example, general data
 
 You can view a more detailed description of our data handling policies on the wiki.
 
-> Note: When originally presented, this slide contained links to our internal wiki with more detailed information. Those internal links have been removed from the public version.
+???+ warning "Redacted Content"
+    When originally presented, this slide contained links to our internal wiki with more detailed information. Those internal links have been removed from the public version.
 
 ---
 
@@ -943,7 +946,8 @@ _098. Vault UI._
 
 You don't need to interact with it on the command-line in a terminal, we have a UI for it installed in all our environments so that you can manage it visually instead. We have plenty of documentation about this on our wiki, so check that out if you're interested in the details.
 
-> The internal wiki link has been removed from these public slides.
+???+ warning "Redacted Content"
+    The internal wiki links have been removed from these public slides.
 
 ---
 
@@ -1999,8 +2003,8 @@ Security is a huge topic, and there are lots of specialty areas. Here are a few 
 <input type="checkbox" id="204" /><label for="204">![204](../slides/redacted.jpeg)</label>
 _204-208. Caption._
 
-<span class="redacted">Redacted</span>
-> These slides gave an overview of how folks can reach the security team, and links to our internal wiki pages, Slack rooms, and details on when we run office hours.
+???+ warning "Redacted Content"
+    These slides gave an overview of how folks can reach the security team, and links to our internal wiki pages, Slack rooms, and details on when we run office hours.
 
 ---
 
@@ -2011,7 +2015,8 @@ _209. Questions?_
 
 So with that, I'll open it up to questions. Thanks very much!
 
-> If you have questions about this training material, feel free to ask me on Twitter, I'm [@r_adams](https://twitter.com/r_adams).
+???+ comment "Presenter's Comment"
+    If you have questions about this training material, feel free to ask me on Twitter, I'm [@r_adams](https://twitter.com/r_adams).
 
 ---
 
@@ -2020,7 +2025,8 @@ So with that, I'll open it up to questions. Thanks very much!
 <input type="checkbox" id="210" /><label for="210">![210](../slides/for_engineers/for_engineers.210.jpeg)</label>
 _210. Image credits._
 
-> Here are the credits for all the images used throughout this training material.
+???+ info "Information"
+    Here are the credits for all the images used throughout this training.
 
 ---
 

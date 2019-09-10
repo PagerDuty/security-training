@@ -56,7 +56,8 @@ _003. Testimonial for the training._
 
 If this is your first year at PagerDuty, then this training will be new to you. In past years it has received rave reviews, in fact Arup himself has praised it many times, as you can see here with this completely genuine quote.
 
-> I actually showed Arup this slide ahead of time and asked him to read it out loud to make sure it sounded OK. Of course, as soon as he'd finished reading it aloud, it became a genuine quote that I could use. We'll be talking more about social engineering later.
+???+ comment "Presenter's Comment"
+    I actually showed Arup this slide ahead of time and asked him to read it out loud to make sure it sounded OK. Of course, as soon as he'd finished reading it aloud, it became a genuine quote that I could use. We'll be talking more about social engineering later.
 
 In all seriousness though, as I said at the start, this is very important. I've tried to make this as entertaining and enjoyable as possible, and it's my hope that you don't feel this is a waste of your time. The material I'm going to present should be useful no matter what skill level you already have. Whether you're just joining us as an intern, or are a seasoned security expert.
 
@@ -89,8 +90,8 @@ If you're unsure where to look, it's down here in the bottom left. For example, 
 <input type="checkbox" id="006" /><label for="006">![006](../slides/redacted.jpeg)</label>
 _006. Redacted slide._
 
-<span class="redacted">Redacted</span>
-> This slide showed the PagerDuty security team, who they are, and what they each do. Not only was the photo of Rich massively embarrassing, but we'd rather not provide a lookup table of the security team for the world to see, so this slide is not available in the public version of our slides. If you want to see that photo of Rich, you'll just need to [get a job at PagerDuty](https://www.pagerduty.com/careers).
+???+ warning "Redacted Content"
+    This slide showed the PagerDuty security team, who they are, and what they each do. Not only was the photo of Rich massively embarrassing, but we'd rather not provide a lookup table of the security team for the world to see, so this slide is not available in the public version of our slides. If you want to see that photo of Rich, you'll just need to [get a job at PagerDuty](https://www.pagerduty.com/careers).
 
 ---
 
@@ -250,8 +251,8 @@ This is hard to defend against, since human nature is to want to help others. So
 <input type="checkbox" id="021" /><label for="021">![021](../slides/redacted.jpeg)</label>
 _021. Redacted slide._
 
-<span class="redacted">Redacted</span>
-> This slide gave information on our internal employee directory and how to use it to verify who you're speaking to.
+???+ warning "Redacted Content"
+    This slide gave information on our internal employee directory and how to use it to verify who you're speaking to.
 
 ---
 
@@ -282,7 +283,8 @@ But you don't even have to send emails to people, sometimes you can just lay a t
 
 But it has that nice "Verified Secure", with the padlock and green tick, so it must be OK, right?
 
-> I should be clear that this isn't really a bad website, and is safe to visit. It's made to point out to people that they shouldn't fill in their details on random sites.
+???+ comment "Presenter's Comment"
+    I should be clear that this isn't really a bad website, and is safe to visit. It's made to point out to people that they shouldn't fill in their details on random sites.
 
 ---
 
@@ -319,7 +321,8 @@ _027. Real or Phish?._
 
 Sorry, I mean "Real or Phish?"
 
-> It's worth noting there were groans from the audience at this point.
+???+ comment "Presenter's Comment"
+    It's worth noting there were groans from the audience at this point.
 
 I'm going to show you some genuine emails that have been sent to PagerDuty employees (shared with the recipients permission of course), and it's your job to tell me if you think it's a real email, or a phishing attempt.
 
@@ -336,7 +339,8 @@ _"Our records show that your account has a debt of $436.{rand(10,100)}}. Previou
 
 What do we think?
 
-> Audience shouts "Phishing!"... less enthusiastically than the presenter would have liked.
+???+ comment "Presenter's Comment"
+    Audience shouts "Phishing!"... less enthusiastically than the presenter would have liked.
 
 ---
 
@@ -376,7 +380,8 @@ One thing you wouldn't have been able to tell from my screenshot, but would if y
 
 One takeaway here is to be sure to hover over any links to see the real address they go to _before_ you click on them. Just because the text in the email says one thing, it doesn't mean that's where the actual link may go. Never click on any links in email that are even remotely suspicious. Sometimes all it takes is a click to do bad things.
 
-> Top tip: If it’s a shortened URL with bit.ly, you can append a `+` to the URL to see where it goes without actually following it.
+???+ comment "Presenter's Comment"
+    Top tip: If it’s a shortened URL with bit.ly, you can append a `+` to the URL to see where it goes without actually following it.
 
 If you do accidentally click a link in a phishing email, please let us know immediately, as it can affect how we respond to the incident. Don't lie to us to save face, we're not going to ridicule you or shout at you for clicking it, we want to know so that we can properly respond to any potential exploit that could have happened.
 
@@ -387,8 +392,8 @@ If you do accidentally click a link in a phishing email, please let us know imme
 <input type="checkbox" id="032" /><label for="032">![032](../slides/redacted.jpeg)</label>
 _032-036. Redacted slides._
 
-<span class="redacted">Redacted</span>
-> A series of slides have been redacted here. They gave examples of more sophisticated phishing attacks that have been waged against PagerDuty employees, and the indicators we used to detect them. We are not including them in the public version to avoid tipping our hand that we detected them.
+???+ warning "Redacted Content"
+    A series of slides have been redacted here. They gave examples of more sophisticated phishing attacks that have been waged against PagerDuty employees, and the indicators we used to detect them. We are not including them in the public version to avoid tipping our hand that we detected them.
 
 ---
 
@@ -408,8 +413,8 @@ If you're interested in more of the types of attacks we get, please take a look 
 <input type="checkbox" id="038" /><label for="038">![038](../slides/redacted.jpeg)</label>
 _038. Redacted slide._
 
-<span class="redacted">Redacted</span>
-> This redacted slide showed an image of our internal "Phishing Archive" where we document all of the phishing attacks against us that we've detected, what the indicators were, and how we were able to detect them (whether automated, or via employee report). We've chosen not to share this slide, again, to avoid tipping our hand on some types of attacks.
+???+ warning "Redacted Content"
+    This redacted slide showed an image of our internal "Phishing Archive" where we document all of the phishing attacks against us that we've detected, what the indicators were, and how we were able to detect them (whether automated, or via employee report). We've chosen not to share this slide, again, to avoid tipping our hand on some types of attacks.
 
 ---
 
@@ -645,7 +650,8 @@ _060. arup._
 
 We can see that this user "arup" has exactly the same password as "pumpkin22".
 
-> This isn't always the case, there's something called "Hash Collision" which can occur. But I'm ignoring that here in order to keep things simple.
+???+ comment "Presenter's Comment"
+    This isn't always the case, there's something called "Hash Collision" which can occur. But I'm ignoring that here in order to keep things simple.
 
 So now we can use "arup"'s password hint as an extra bit of information. So, "pumpkin", "holiday", "scary movie". Hopefully by now you've guessed that this password is `halloween`.
 
@@ -1003,7 +1009,8 @@ _090. Password managers._
 
 Password managers are designed to remember all of your passwords for you, in a secure way. They can also generate completely random passwords for you, and you can typically change the criteria associated with this generation. So if a website doesn't let you use special symbols, you can exclude those and still get a strong password.
 
-> Rich's "Fun" Tidbit: One of the (many) password restrictions on The US Citizenship and Immigration Service website is "Your Password cannot contain the dollar ($) sign". I always thought that seemed a little ironic.
+???+ comment "Presenter's Comment"
+    Rich's "Fun" Tidbit: One of the (many) password restrictions on The US Citizenship and Immigration Service website is "Your Password cannot contain the dollar ($) sign". I always thought that seemed a little ironic.
 
 But the most important feature of password managers is that they let you use a completely different password for everything, without having to worry about remembering it yourself.
 
@@ -1396,7 +1403,8 @@ How we handle data depends on what type of data it is. For example, general data
 
 You can view a more detailed description of our data handling policies on the wiki.
 
-> Note: When originally presented, this slide contained links to our internal wiki with more detailed information. Those internal links have been removed from the public version.
+???+ warning "Redacted Content"
+    When originally presented, this slide contained links to our internal wiki with more detailed information. Those internal links have been removed from the public version.
 
 ---
 
@@ -1465,7 +1473,8 @@ _129. Compliance._
 
 OK, we're on to our final topic. Compliance.
 
-> If you don't know what that background image is about, go and watch a cheesy 80's sci-fi movie called "[Flight of the Navigator](https://www.imdb.com/title/tt0091059/)".
+???+ comment "Presenter's Comment"
+    If you don't know what that background image is about, go and watch a cheesy 80's sci-fi movie called "[Flight of the Navigator](https://www.imdb.com/title/tt0091059/)".
 
 We have a variety of compliance restrictions that affect how we operate, so I want to spend a bit of time talking about each of them.
 
@@ -1521,8 +1530,8 @@ The bottom line is that GDPR is going to lead to a lot of interesting situations
 <input type="checkbox" id="133" /><label for="133">![133](../slides/redacted.jpeg)</label>
 _133-135. Redacted slides._
 
-<span class="redacted">Redacted</span>
-> A series of slides here went into detail on our other compliance initiatives. These initiatives are still being worked on and so we're unable to share the information publicly.
+???+ warning "Redacted Content"
+    A series of slides here went into detail on our other compliance initiatives. These initiatives are still being worked on and so we're unable to share the information publicly.
 
 ---
 
@@ -1540,8 +1549,8 @@ And that's it! All of the topics I had. I hope you all learned something useful,
 <input type="checkbox" id="137" /><label for="137">![137](../slides/redacted.jpeg)</label>
 _137-139. Redacted slides._
 
-<span class="redacted">Redacted</span>
-> These slides gave an overview of how folks can reach the security team, and links to our internal wiki pages, Slack rooms, and details on when we run office hours.
+???+ warning "Redacted Content"
+    These slides gave an overview of how folks can reach the security team, and links to our internal wiki pages, Slack rooms, and details on when we run office hours.
 
 ---
 
@@ -1563,7 +1572,8 @@ _141. Questions?_
 
 So with that, I'll open it up to questions. Thanks very much!
 
-> If you have questions about this training material, feel free to ask me on Twitter, I'm [@r_adams](https://twitter.com/r_adams).
+???+ comment "Presenter's Comment"
+    If you have questions about this training material, feel free to ask me on Twitter, I'm [@r_adams](https://twitter.com/r_adams).
 
 ---
 
@@ -1572,7 +1582,8 @@ So with that, I'll open it up to questions. Thanks very much!
 <input type="checkbox" id="142" /><label for="142">![142](../slides/for_everyone/for_everyone.142.jpeg)</label>
 _142. Image credits._
 
-> Here are the credits for all the images used throughout this training material.
+???+ info "Information"
+    Here are the credits for all the images used throughout this training.
 
 ---
 
