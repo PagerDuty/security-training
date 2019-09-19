@@ -15,8 +15,26 @@
     margin-left: 0px
 }
 
+/* The intro image */
+.article h1 + p img {
+  float: right;
+  width: 12em;
+  margin: 0em 2em 2em 4em;
+  clip-path: none;
+  -webkit-clip-path: none;
+}
+
+@media only screen and (max-width: 720px) {
+  .article h1 + p img {
+    float: none;
+    width: 10em;
+    margin: 0 auto !important;
+    padding-right: 1em;
+  }
+}
+
 /* Display slide images by the side. */
-.article p img {
+.article h2 + p + p img {
   display: block;
   float: left;
   width: 49%;
@@ -28,7 +46,39 @@
 
 /* Except on smaller screens. */
 @media only screen and (max-width: 720px) {
-  .article p img {
+  article h1 + p img {
+    float: none;
+    margin: 0 auto !important;
+  }
+
+  .article h2 + p + p img {
+    float: none;
+    width: 100%;
+    margin: 0%;
+    margin-bottom: 1em;
+  }
+}
+
+/* Use hr to clear floats. */
+hr {
+  clear: both;
+  visibility: hidden;
+  height: 0px;
+  margin: 0;
+}
+
+/* Adjust the info bar at the top. */
+details.standalone {
+  margin-top: 2em;
+}
+
+/* Posters should be three in a row. */
+#posters + p + p img {
+  width: 32%;
+}
+/* Except on smaller screens. */
+@media only screen and (max-width: 720px) {
+  #posters + p + p img  {
     float: none;
     width: 100%;
     margin: 0%;
