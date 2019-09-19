@@ -27,6 +27,7 @@ extra:
 pages:
   - Overview: 'index.md'
   - For Everyone: 'for_everyone/index.md'
+  - For Everyone (Part II): 'for_everyone_part_ii/index.md'
   - For Engineers: 'for_engineers/index.md'
 
 # Analytics
