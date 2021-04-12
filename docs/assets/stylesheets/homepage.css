@@ -1,0 +1,85 @@
+/* Change layout to remove sidebar navigation, and use full width for slide content. */
+/* Move off-screen so we can still use for mobile navigation. */
+main nav {
+  position: absolute;
+  left: -300px;
+}
+
+/* Show main content as full width. */
+main article {
+  padding-left: 0em;
+  overflow: visible; /* For permalinks */
+}
+
+/* The intro image */
+main article h1 + section + p img {
+  float: right;
+  width: 12em;
+  margin: 0em 2em 2em 4em;
+  clip-path: none;
+  -webkit-clip-path: none;
+}
+
+/* Adjust the info bar at the top. */
+main article details.standalone {
+  margin-top: 2em;
+}
+
+/* Don't float on smaller layouts. */
+@media only screen and (max-width: 720px) {
+  main article h1 + section + p img {
+    float: none;
+    width: 10em;
+    margin: 0 auto !important;
+    padding-right: 1em;
+  }
+}
+
+/* Display slide cover images side by side. */
+main article h2 + p + p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main article h2 + p + p a {
+  flex: 0 0 calc(50% - .5em);
+  border-bottom: none;
+  padding-right: .5em;
+}
+
+main article h2 + p + p img {
+  width: auto;
+  border-radius: 4px;
+}
+
+/* Except on smaller screens. */
+@media only screen and (max-width: 720px) {
+  main article h2 + p + p a {
+    flex: 0 0 100%;
+    margin-bottom: 1em;
+  }
+
+  main article h2 + p + p a:last-of-type {
+    margin-bottom: 0em;
+  }
+}
+
+/* Posters should be three in a row. */
+main article #posters + p + p a {
+  flex: 0 0 calc(33.33% - .5em);
+  border-bottom: none;
+  padding-right: .5em;
+}
+
+/* Except on smaller screens. */
+@media only screen and (max-width: 720px) {
+  main article #posters + p + p a {
+    flex: 0 0 100%;
+    margin-bottom: 1em;
+  }
+
+  main article #posters + p + p a:last-of-type {
+    margin-bottom: 0em;
+  }
+}
