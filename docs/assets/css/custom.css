@@ -1,6 +1,0 @@
-/* CSS alterations for this particular site only. */
-
-/* Heading when printing */
-.article h1:before {
-  content: 'Security Training';
-}

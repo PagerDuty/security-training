@@ -1,8 +1,8 @@
 ---
-style: training
+style: homepage
 ---
 
-![](/assets/img/security-training-icon.svg)
+![](/assets/images/security-training-icon.svg)
 
 This site contains the open-source versions of PagerDuty's internal employee security training courses. It contains all of the public materials for our courses, including PDF exports of the slides, and the original [Keynote](https://www.apple.com/keynote/) files so you can adapt them more easily for your own organizations.
 
@@ -25,8 +25,6 @@ Our "For Everyone" course covers a variety of general security topics relevant t
 Our "For Engineers" course covers more technical security concepts relevant to those in the PagerDuty engineering department. While the topics are more technical in nature, the training is designed to be understood by anyone, whether you're a seasoned engineer or just starting out in your career. Click the slide below to view the course,
 
 [![Security Training For Engineers](./slides/for_engineers/for_engineers.001.jpeg)](/for_engineers)
-
----
 
 !!!question "Spotted a Problem?"
     Security is hard, and we're not perfect. There may be mistakes or misunderstandings in our training material. If you find a problem, please help us correct it! This project is [open-source on GitHub](https://github.com/pagerduty/security-training) and we appreciate all friendly contributions.
