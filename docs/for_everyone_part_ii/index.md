@@ -61,13 +61,13 @@ Similarly to last year, I'll be producing three versions of the training slides.
 ### Tracking Attendance
 
 <input type="checkbox" id="003" /><label for="003">![003](/slides/for_everyone_part_ii/for_everyone_part_ii.003.jpeg)</label>
-_002. A blue llama plush toy that was promptly claimed by Rich's daughter._
+_003. A blue llama plush toy that was promptly claimed by Rich's daughter._
 
 As with previous years, we do have to track attendance for this, and I'm going to continue to do that in the silliest way possible: the colour and animal quiz. For those of you who don't know about this, on the next slide I'll be showing you a colour. Remember that colour. At the end of this session, there will be a slide with an animal on it. Remember that animal. After the training you'll get a form with two questions to fill in, where you'll need to answer with the colour and the animal. That will prove you were here at the training at the start and at the end... and hopefully throughout as well.
 
 It's a bit silly, but hey, it's either that or 20 questions about security and I think you'll all agree that this is much more fun.
 
-Last year's combination was [Blue](/for_everyone#tracking-attendance) [Llama](/for_everyone#llama), which is why you see **Blue Llama** being associated with security things around the office. I wanted to give a quick shoutout to one of the folks from our Toronto office who got my daughter a little Blue Llama plush toy after last year's training! Well.. they got it to for me, but it was very quickly claimed by my daughter. But seriously, she loves it, thank you so much!
+Last year's combination was [Blue](/for_everyone#tracking-attendance) [Llama](/for_everyone#llama), which is why you see **Blue Llama** being associated with security things around the office. I wanted to give a quick shoutout to one of the folks from our Toronto office who got my daughter a little Blue Llama plush toy after last year's training! Well... they got it to for me, but it was very quickly claimed by my daughter. But seriously, she loves it, thank you so much!
 
 Of course now that a precedent has been set I was going to make this year's answer "Green - Big Bag of Cash", but eventually decided against it.
 
@@ -117,7 +117,7 @@ Our job is that we're here to **help you**. That's the whole purpose of the Page
 
 Throughout the industry, the relationship between employees and a company's Security team is often considered to be adversarial. That's not the case at PagerDuty. We're on your side, we're here to help you to get your job done in a secure way, and we're here to help you stay secure in all parts of your lives.
 
-We're not here to punish you for clicking a wrong link, and we're not here to so "No" to everything. That said, we do have to say "No" to some things though, I'm sorry, that's just the way it is. But even if we're forced to say "No", we'll work with you to reach a solution that is acceptable for both of us. We're not just going to tell you to go away and leave us alone or anything like that.
+We're not here to punish you for clicking a wrong link, and we're not here to say "No" to everything. That said, we do have to say "No" to some things though, I'm sorry, that's just the way it is. But even if we're forced to say "No", we'll work with you to reach a solution that is acceptable for both of us. We're not just going to tell you to go away and leave us alone or anything like that.
 
 We're not just here for work related things either. If you have questions about security and your personal internet usage, such as how to secure your Facebook account, or you got an email saying an account of yours was hacked, etc. We're happy to help with that stuff too. Obviously we'll need to prioritize work related things, but you can always feel free to come to us with any type of security questions you may have.
 
@@ -416,7 +416,7 @@ Then they'll text you to say,
 
 At the back of your mind it's very easy for that to trick you into thinking that you've already verified who they are on two separate channels, email and voice, even though you never really did verify it both times.
 
-The first message they send it validating your willingness to comply. They're validating that you're someone who follows instructions without really looking at things too deeply. If you do comply, they're more likely to hit you with a more important or sensitive question later once they've built up a rapport with you. It might be the next email, it might be five emails later, then they'll drop the big bomb on you and ask you to send them money and so on.
+The first message they send is validating your willingness to comply. They're validating that you're someone who follows instructions without really looking at things too deeply. If you do comply, they're more likely to hit you with a more important or sensitive question later once they've built up a rapport with you. It might be the next email, it might be five emails later, then they'll drop the big bomb on you and ask you to send them money and so on.
 
 All that time they've been building up a rapport with you and in the back of your mind it's easy to convince yourself that you're speaking to a legitimate person. So that's something to keep and eye out for, but it's not a 100% indicator.
 
@@ -1270,7 +1270,7 @@ When you do walk through the doors, check who's following you. Tailgating (also 
 <input type="checkbox" id="106" /><label for="106">![106](/slides/for_everyone_part_ii/for_everyone_part_ii.106.jpeg)</label>
 _106. Don't let someone follow on your entry._
 
-If it's someone you don't recognize, ask them to tap their card. If you get asked my someone else to tap your card, please don't give them a hard time and just tap your card. Don't be offended, say hello and make a new friend!
+If it's someone you don't recognize, ask them to tap their card. If you get asked by someone else to tap your card, please don't give them a hard time and just tap your card. Don't be offended, say hello and make a new friend!
 
 If you're uncomfortable asking a stranger to tap their badge, or you ask and they refuse to tap their badge, come and tell security at the front desk. Don't put yourself into a situation where you feel uncomfortable, and under no circumstances should you ever try to physically stop or restrain someone from entering our offices.
 
@@ -1496,7 +1496,7 @@ I should mention that there are a few rules to follow if you do want to start pl
 
 1. Please never pick or attach a lock you don't own yourself, or that you do not have explicit permission to pick. All of the ones on stage here are mine, and you have my permission to pick them.
 
-1. And don't pick a lock that's actually being used to lock something up. Because if you damage the lock, you've now got to cut if off to get to the think being locked.
+1. And don't pick a lock that's actually being used to lock something up. Because if you damage the lock, you've now got to cut it off to get to the thing being locked.
 
 And the third law there is the third law of robotics... because I have to have a little fun with the slides.
 
@@ -1812,7 +1812,7 @@ The customer will come to us and ask us about security. We tell them that we're 
 
 and deeply relevant questions such as,
 
-> What is your business continuity plan in the even of a global pandemic?
+> What is your business continuity plan in the event of a global pandemic?
 
 Not joking by the way, those are genuine questions we get on these vendor security questionnaires from customers. A global pandemic? Really?! I'm going to be home and hiding. Or I'll work remote that day.
 
@@ -1943,7 +1943,7 @@ And the penalties are huge. It's 20 million Euros, or 4% of your annual global t
 <input type="checkbox" id="172" /><label for="172">![172](/slides/for_everyone_part_ii/for_everyone_part_ii.172.jpeg)</label>
 _172. Pagey's summary of compliance._
 
-Bottom line here, our second SOC2 audit is underway right now. It's going to make our sales process much smoother. It's very important. And so is GDPR I guess.. No, of course I'm kidding, GDPR is very important too.
+Bottom line here, our second SOC2 audit is underway right now. It's going to make our sales process much smoother. It's very important. And so is GDPR I guess... No, of course I'm kidding, GDPR is very important too.
 
 ---
 
