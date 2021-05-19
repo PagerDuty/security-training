@@ -772,7 +772,7 @@ The first is called "encryption in transit"...
 <input type="checkbox" id="082" /><label for="082">![082](../slides/for_engineers/for_engineers.082.jpeg)</label>
 _082. Encryption in transit._
 
-The idea is that we want to be sure that if any of our communications are intercepted, they cannot be read. Importantly, we also want to make sure they can't be read in the future even if our keys get leaked. So if someone intercepts our communications now, but doesn't yet have the key to decrypt it, they might store it on the off-chance the do get the key later, then go back and decrypt it when they do. You want to use a technique called "Perfect Forward Secrecy" to prevent that from happening.
+The idea is that we want to be sure that if any of our communications are intercepted, they cannot be read. Importantly, we also want to make sure they can't be read in the future even if our keys get leaked. So if someone intercepts our communications now, but doesn't yet have the key to decrypt it, they might store it on the off-chance they do get the key later, then go back and decrypt it when they do. You want to use a technique called "Perfect Forward Secrecy" to prevent that from happening.
 
 Everything at PagerDuty is encrypted in transit automatically, we use HTTPS/TLS for all endpoints, and all other communication is encrypted by IPsec in transport mode by default. You need to try very hard to send something unencrypted around our infrastructure.
 
@@ -1608,7 +1608,7 @@ _165. Session example._
 
 So let's look at our original example, but in a world where cookies exist.
 
-The initial request from the user is the same, they tell the website who they are and that the want to login. The server checks that their password is correct, but before they respond to the user, it will create a "session". It will create a record of who the user is and that they're logged in, and will assign a unique identifier to this "session". The server will now reply to the user as before, but will include the cookie in its response, telling the user's browser to remember that session identifier and to use it on all subsequent requests.
+The initial request from the user is the same, they tell the website who they are and that they want to login. The server checks that their password is correct, but before they respond to the user, it will create a "session". It will create a record of who the user is and that they're logged in, and will assign a unique identifier to this "session". The server will now reply to the user as before, but will include the cookie in its response, telling the user's browser to remember that session identifier and to use it on all subsequent requests.
 
 The client will then remember that information and store it in the browser.
 
@@ -1657,7 +1657,7 @@ So what are some of the problems you can have with session management? The main 
 <input type="checkbox" id="170" /><label for="170">![170](../slides/for_engineers/for_engineers.170.jpeg)</label>
 _170. Session hijacking._
 
-This is where an attacker can take over the session of another user. This can happen in several different ways. Either they were able to steal your session identifier, so they can tell the server that they're you. Another way is by just guessing session identifiers (this is why they should be random!), another way is by manipulating cookies that weren't stored properly. If a cookie was made accessible more widely that it should have been, an attacker might be able to manipulate it to steal your session, or have you change from your own session to their session...
+This is where an attacker can take over the session of another user. This can happen in several different ways. Either they were able to steal your session identifier, so they can tell the server that they're you. Another way is by just guessing session identifiers (this is why they should be random!), another way is by manipulating cookies that weren't stored properly. If a cookie was made accessible more widely than it should have been, an attacker might be able to manipulate it to steal your session, or have you change from your own session to their session...
 
 ---
 
@@ -1965,7 +1965,7 @@ _201. Additional reading._
 
 If you're interested in some security history, or other classic vulnerabilities, there's some great material at these links.
 
-The story of the NSA's involvement in the development of DES is particular interesting. Back in the 70's they basically stepped in and slightly modified DES before it was released and wouldn't tell anyone why. Naturally people were a _little_ suspicious. 30 years later a new type of attack called differential cryptanalysis came to light, but it was found that DES was surprisingly resilient to it, it turns out due to the changes the NSA had made. They knew about the attack and wanted to make DES resilient to it, but couldn't tell anyone much more without revealing they knew about differential cryptanalysis.
+The story of the NSA's involvement in the development of DES is particularly interesting. Back in the 70's they basically stepped in and slightly modified DES before it was released and wouldn't tell anyone why. Naturally people were a _little_ suspicious. 30 years later a new type of attack called differential cryptanalysis came to light, but it was found that DES was surprisingly resilient to it, it turns out due to the changes the NSA had made. They knew about the attack and wanted to make DES resilient to it, but couldn't tell anyone much more without revealing they knew about differential cryptanalysis.
 
 There's another fun story about how DirecTV managed to counteract some hacked satellite TV smart cards in what was called the "Black Sunday Hack". It's really interesting how they did it, by basically loading some code piece by piece over 60+ updates, which individually seemed innocuous, but when activated would make any hacked card completely unusable. They chose to activate the hack a week before the Super Bowl.
 
