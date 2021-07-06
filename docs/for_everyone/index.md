@@ -30,7 +30,7 @@ _001. "Security Training for Everyone, February 2018"_
 
 Welcome to "Security Training for Everyone", hopefully you all fall under the category of "Everyone", if not, then you're probably in the wrong place. This is our annual employee security training session, and is a requirement to both satisfy our obligation to customers, but also to pass our compliance audits. This stuff is really important, so I'd like to ask you all to pay as close attention as you can. If you get paged and have to leave, that's fine, I'll follow up with you after to fill in the things you missed.
 
-For those who've not met me, "Hi, I'm Rich". I'm on the security team here at PagerDuty, and was formerly on the Operations team before it became known as the SRE team. If you've been going through our Incident Commander training, then you will likely have met me there already. If not, then ... you should come to our Incident Commander training, it's great. You might also have seen me in that [BabyDuty blog post](https://www.pagerduty.com/blog/babyduty/) from last year where I basically compared being a parent to managing an incident response process.
+For those who've not met me, "Hi, I'm Rich". I'm on the security team here at PagerDuty, and was formerly on the Operations team before it became known as the SRE team. If you've been going through our Incident Commander training, then you will likely have met me there already. If not, then ... you should come to our Incident Commander training, it's great.
 
 Anyway, enough with introductions, let's get started!
 
@@ -186,7 +186,7 @@ A "backdoor" is another type of fake security. This refers to when there's a sup
 ### TSA Baggage Locks
 
 <input type="checkbox" id="015" /><label for="015">![015](../slides/for_everyone/for_everyone.015.jpeg)</label>
-_015. Story in the Washington Post. [Reference](https://www.washingtonpost.com/local/trafficandcommuting/where-oh-where-did-my-luggage-go/)_
+_015. Story in the Washington Post. [Reference](https://www.washingtonpost.com/local/trafficandcommuting/where-oh-where-did-my-luggage-go/2014/11/24/16d168c6-69da-11e4-a31c-77759fc1eacc_story.html)_
 
 You may remember a news story a few years ago in the Washington Post. It was around Thanksgiving, and they had an article all about how the TSA keep your bags safe during the holiday period. They held up TSA locks as an example. You've probably seen these locks, where you have a code or key to unlock it, but the TSA also has master keys to unlock it. The article included a photo of these master keys. Quite a high resolution photo in fact. So I'm sure you can guess what happened next.
 
@@ -786,7 +786,7 @@ Luckily for us, someone has already done the hard work.
 ### Magic Lists
 
 <input type="checkbox" id="073" /><label for="073">![073](../slides/for_everyone/for_everyone.073.jpeg)</label>
-_073. Magic Lists. [Reference](http://project-rainbowcrack.com/table.htm)_
+_073. Magic Lists. [Reference](https://project-rainbowcrack.com/table.htm)_
 
 There are things called "Rainbow Tables", in our parlance, "Magic Lists". There are massive files that have the full collection of magic strings for all sorts of situations. The one we're interested in is the 4th down from the top, every mixed-case alphanumeric up to 9 characters long. It's a 690GB file, which isn't too bad. We can just download that to an Amazon Web Services instance, and pay by the hour to try and crack our remaining password.
 
@@ -832,7 +832,7 @@ So great, this technique has existed forever, and stops this attack. So we're sa
 ### Password Leaks
 
 <input type="checkbox" id="077" /><label for="077">![077](../slides/for_everyone/for_everyone.077.jpeg)</label>
-_077. Password leaks. [Reference](http://www.informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/)_
+_077. Password leaks. [Reference](https://www.informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/)_
 
 Unfortunately not. Lots of companies are using unsalted hashes to store their passwords. Does everyone remember the LinkedIn breach from 2012? I'm sure you all still get SPAM from it. Well, they were storing passwords _exactly_ how I just showed in the EvilCorp example. If your password was "halloween", then what you saw was exactly how they were storing it in their database.
 
@@ -875,7 +875,7 @@ So, your passwords should all be long, random, unique, and private. Now, a lot o
 ### Long
 
 <input type="checkbox" id="080" /><label for="080">![080](../slides/for_everyone/for_everyone.080.jpeg)</label>
-_080. Long. [Reference](http://www.lockdown.co.uk/?pg=combi&s=articles)_
+_080. Long. [Reference](https://www.thesecurityfactory.be/password-cracking-speed/)_
 
 First, your passwords should be long. Hopefully it's mostly intuitive that the longer a password is, the harder it will be to break. At least in general. If your password is 20 of the same character, then that changes things a little.
 
@@ -1496,7 +1496,7 @@ Just kidding, of course I'm going to go into more detail.
 ### GDPR
 
 <input type="checkbox" id="131" /><label for="131">![131](../slides/for_everyone/for_everyone.131.jpeg)</label>
-_131. GDPR. [Reference](https://www.eugdpr.org/)_
+_131. GDPR. [Reference](https://gdpr.eu/)_
 
 GDPR goes into effect on 25th May 2018, and has very strict rules for how personal information should be handled, with big fines for those who don't follow the rules. We will be subject to GDPR, as we handle data for users who are EU citizens.
 
