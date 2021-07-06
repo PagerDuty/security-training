@@ -80,7 +80,7 @@ But I want to kick things off with some quick warnings...
 <input type="checkbox" id="007" /><label for="007">![007](../slides/for_engineers/for_engineers.007.jpeg)</label>
 _007. "The framework takes care of that for me..."_
 
-I often hear this statement from developers, that their framework of choice takes care of all the nitty gritty security things for them, so they don't need to understand how they work. I'm here to tell you that that is completely not the case. Rails, Akka, Symfony, whatever you use, you can't just blindly assume your framework or library of choice has you covered. Yes, it's convenient that they do all the heavy lifting for you, but you can't just abdicate your responsibility to understand and be able to repair security issues yourself.  
+I often hear this statement from developers, that their framework of choice takes care of all the nitty gritty security things for them, so they don't need to understand how they work. I'm here to tell you that that is completely not the case. Rails, Akka, Symfony, whatever you use, you can't just blindly assume your framework or library of choice has you covered. Yes, it's convenient that they do all the heavy lifting for you, but you can't just abdicate your responsibility to understand and be able to repair security issues yourself.
 
 ---
 
@@ -447,9 +447,9 @@ _051. Additional Reading._
 
 SQL injection is one of the more common vulnerabilities that exist, and it can be devastating if exploited. There's lots of nuance involved and lots more I could have talked about. But since we don't have all day, here are some additional reading links if you're interested in understanding more about SQL injection and how to exploit it. The cheat sheets are particularly eye-opening.
 
-* <http://pentestmonkey.net/cheat-sheet/sql-injection/mysql-sql-injection-cheat-sheet>
+* <https://pentestmonkey.net/cheat-sheet/sql-injection/mysql-sql-injection-cheat-sheet>
 * <https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet>
-* <http://www.sqlinjection.net/time-based/>
+* <https://www.sqlinjection.net/time-based/>
 * <https://www.owasp.org/index.php/Blind_SQL_Injection>
 * <https://ckarande.gitbooks.io/owasp-nodegoat-tutorial/content/tutorial/a1_-_sql_and_nosql_injection.html>
 
@@ -491,7 +491,7 @@ So once you have a hashed value, you essentially can't get back to the password,
 ### Rainbow Tables
 
 <input type="checkbox" id="055" /><label for="055">![055](../slides/for_engineers/for_engineers.055.jpeg)</label>
-_055. Rainbow tables. [Reference](http://project-rainbowcrack.com/table.htm)_
+_055. Rainbow tables. [Reference](https://project-rainbowcrack.com/table.htm)_
 
 This is what a rainbow table is. A precomputed list of hashes back to their original value. It allows you to quickly reverse hashes. You can get rainbow tables for all of the common hashing algorithms in use. I used SHA-1 in all my examples from the last training.
 
@@ -777,7 +777,7 @@ The idea is that we want to be sure that if any of our communications are interc
 Everything at PagerDuty is encrypted in transit automatically, we use HTTPS/TLS for all endpoints, and all other communication is encrypted by IPsec in transport mode by default. You need to try very hard to send something unencrypted around our infrastructure.
 
 ???+ comment "Presenter's Comment"
-    Shameless plug: Two ex-PagerDuty engineers, Doug Barth and Evan Gilman, literally wrote the book on [Zero Trust Networks](http://shop.oreilly.com/product/0636920052265.do), which is the methodology PagerDuty uses for our network. If you're interested in learning more about our IPsec mesh network, [Doug gave a talk on it at Velocity Conf in 2015](https://speakerdeck.com/dougbarth/ipsec-mesh-network-perfect-for-the-cloud).
+    Shameless plug: Two ex-PagerDuty engineers, Doug Barth and Evan Gilman, literally wrote the book on [Zero Trust Networks](https://learning.oreilly.com/library/view/~/9781491962183/), which is the methodology PagerDuty uses for our network. If you're interested in learning more about our IPsec mesh network, [Doug gave a talk on it at Velocity Conf in 2015](https://speakerdeck.com/dougbarth/ipsec-mesh-network-perfect-for-the-cloud).
 
 ---
 
@@ -1344,7 +1344,7 @@ If any of these checks fail, then the request should be aborted, since it could 
 ### Rails
 
 <input type="checkbox" id="139" /><label for="139">![139](../slides/for_engineers/for_engineers.139.jpeg)</label>
-_139. Rails. [Reference](https://blog.sourceclear.com/when-rails-protect_from_forgery-fails/)_
+_139. Rails. [Reference](https://www.veracode.com/blog/managing-appsec/when-rails-protectfromforgery-fails)_
 
 Thankfully, all of this logic is usually built into most frameworks. In Rails all you need to do is add `protect_from_forgery` to your controllers. But at least now you know what it's doing behind the scenes!
 
@@ -1540,7 +1540,7 @@ _158. Additional reading._
 
 If you want to know more about this and why it's an issue, here are some pages you can visit.
 
-* <https://www.owasp.org/index.php/Testing_for_User_Enumeration_and_Guessable_User_Account_(OWASP-AT-002)>
+* <https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/03-Identity_Management_Testing/04-Testing_for_Account_Enumeration_and_Guessable_User_Account>
 * <https://blog.rapid7.com/2017/06/15/about-user-enumeration/>
 
 ---
@@ -1972,7 +1972,7 @@ There's another fun story about how DirecTV managed to counteract some hacked sa
 Anyway, lots of interesting reading!
 
 * <https://en.wikipedia.org/wiki/Data_Encryption_Standard#NSA's_involvement_in_the_design>
-* <http://simson.net/ref/1994/coppersmith94.pdf>
+* <https://simson.net/ref/1994/coppersmith94.pdf>
 * <https://en.wikipedia.org/wiki/Differential_cryptanalysis>
 * <https://en.wikipedia.org/wiki/Power_analysis>
 * <https://www.nsa.gov/news-features/declassified-documents/cryptologic-histories/assets/files/cold_war_iii.pdf>

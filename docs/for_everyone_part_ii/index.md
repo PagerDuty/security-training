@@ -18,7 +18,7 @@ keynote: /assets/keynote/pagerduty_security_training_for_everyone_part_ii_public
       * **[Two-Factor Authentication](#two-factor-authentication)** - _An overview of what 2FA is, and the good (and not so good) ways of using it._
       * **[Identity](#identity)** - _Why ID badges might not be as secure as you think, and other topics related to physical security._
       * **[Data Handling](#data)** - _The different types of data we have and how to properly handle that data._
-      * **[Compliance](#compliance)** - _What compliance is, and how it can improve our lives._
+      * **[Compliance](#socks)** - _What compliance is, and how it can improve our lives._
 
     While some of the material we present internally contains sensitive PagerDuty information, the majority consists of generic security lessons, presented in a light-hearted and informative way. Many employees asked for a version of the training they could share with friends and family. This site is the culmination of our efforts to do just that.
 
@@ -1149,18 +1149,18 @@ OK, so photos on badges aren't foolproof. But our badges use RFID (Radio-frequen
 ### Proxmark 3
 
 <input type="checkbox" id="096" /><label for="096">![096](/slides/for_everyone_part_ii/for_everyone_part_ii.096.jpeg)</label>
-_096. Proxmark3 DevKit. [Reference](https://store.ryscc.com/collections/proxmark-3/products/elechouse-proxmark3)_
+_096. Proxmark3 DevKit. [Reference](https://www.elechouse.com/elechouse/index.php?main_page=product_info&cPath=90_93&products_id=2264)_
 
-Well, if you have $250 to spare, you can get one of [these cool kits](https://store.ryscc.com/collections/proxmark-3/products/elechouse-proxmark3) that let you clone cards just by getting near them.
+Well, if you have $250 to spare, you can get one of [these cool kits](https://www.elechouse.com/elechouse/index.php?main_page=product_info&cPath=90_93&products_id=2264) that let you clone cards just by getting near them.
 
 ---
 
 ### Keysy
 
 <input type="checkbox" id="097" /><label for="097">![097](/slides/for_everyone_part_ii/for_everyone_part_ii.097.jpeg)</label>
-_097. Keysy RFID duplicator. [Reference](http://tinylabs.io/store/)_
+_097. Keysy RFID duplicator. [Reference](https://tinylabs.io/store/)_
 
-You definitely couldn't just spend say, $40, on an RFID duplicator like [this one here](http://tinylabs.io/store/), and clone your ID badge to a writeable RFID card and then get into the office with it. Definitely not possible.
+You definitely couldn't just spend say, $40, on an RFID duplicator like [this one here](https://tinylabs.io/store/), and clone your ID badge to a writeable RFID card and then get into the office with it. Definitely not possible.
 
 ???+ comment "Presenter's Comment"
     At this point I showed folks my work badge cloned to both a key fob and a writable RFID card.
@@ -1928,7 +1928,7 @@ It stands for General Data Protection Regulation. It is in effect now, as of las
 ### GDPR
 
 <input type="checkbox" id="171" /><label for="171">![171](/slides/for_everyone_part_ii/animations/for_everyone_part_ii.171.gif)</label>
-_171. GDPR. [Reference](https://www.eugdpr.org/)_
+_171. GDPR. [Reference](https://gdpr.eu/)_
 
 There are so many things involved in GDPR though, and I'm not going to go through them all. I'm just going to show you this really cute animated slide that I spent far too long on.
 
