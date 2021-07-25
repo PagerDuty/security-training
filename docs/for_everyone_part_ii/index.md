@@ -210,9 +210,9 @@ Most of our defenses will protect us against this type of threat, but if they're
 <input type="checkbox" id="015" /><label for="015">![015](/slides/for_everyone_part_ii/for_everyone_part_ii.015.jpeg)</label>
 _015. Lone hacker with a grudge?_
 
-OK, so that about a loan hacker with a grudge?
+OK, so what about a lone hacker with a grudge?
 
-We're pretty well set up here to defend against this type of threat actor, but they can potentially cause a lot of damage, and will tend to go for more denial of service (DoS) type of attacks rather than outright stealing information. They tend be less motivated by financial gain and more about causing reputation damage or gaining notoriety for themselves. Most of our controls are in place to protect against this type of threat, so we hopefully do a pretty good job of keeping loan hackers out.
+We're pretty well set up here to defend against this type of threat actor, but they can potentially cause a lot of damage, and will tend to go for more denial of service (DoS) type of attacks rather than outright stealing information. They tend be less motivated by financial gain and more about causing reputation damage or gaining notoriety for themselves. Most of our controls are in place to protect against this type of threat, so we hopefully do a pretty good job of keeping lone hackers out.
 
 As far as we know of course. We only know about the threats we know about. If someone is in our system and we don't know it, that's just as bad. And if that thought keeps you up at night, welcome to the party!
 
