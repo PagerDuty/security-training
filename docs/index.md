@@ -26,9 +26,6 @@ Our "For Engineers" course covers more technical security concepts relevant to t
 
 [![Security Training For Engineers](./slides/for_engineers/for_engineers.001.jpeg)](/for_engineers)
 
-!!!question "Spotted a Problem?"
-    Security is hard, and we're not perfect. There may be mistakes or misunderstandings in our training material. If you find a problem, please help us correct it! This project is [open-source on GitHub](https://github.com/pagerduty/security-training) and we appreciate all friendly contributions.
-
 ## Posters
 
 To add a little more fun to our trainings, we like to advertise them around the PagerDuty offices with some custom movie posters. Everyone usually gets a kick out of them, so we thought it would be fun to share them here too. These are the US versions of the posters. We also make localized ones for our global offices, usually just to misspell "humo(u)r" for each region so that no one feels left out. We haven't gone as far as making a French language version for our Toronto office just yet, but maybe next year.
@@ -36,3 +33,16 @@ To add a little more fun to our trainings, we like to advertise them around the 
 [![Poster for Security Training for Everyone](/assets/posters/2018_for_everyone_poster.png)](/assets/posters/2018_for_everyone_poster.png)
 [![Poster for Security Training for Engineers](/assets/posters/2018_for_engineers_poster.png)](/assets/posters/2018_for_engineers_poster.png)
 [![Poster for Security Training for Everyone Part II](/assets/posters/2019_for_everyone_part_ii_poster.png)](/assets/posters/2019_for_everyone_part_ii_poster.png)
+
+We've also been known to go a little overboard and make posters which emulate the real posters for various computer/security/social-engineering related movies. See if you can figure out which movie these were inspired by (the image alt-text will give you the answers).
+
+[![Poster for Security Training for Everyone Part III (1)](/assets/posters/2020_for_everyone_part_iii_poster.001.jpeg)](/assets/posters/2020_for_everyone_part_iii_poster.001.jpeg "Sneakers (1992)")
+[![Poster for Security Training for Everyone Part III (2)](/assets/posters/2020_for_everyone_part_iii_poster.002.jpeg)](/assets/posters/2020_for_everyone_part_iii_poster.002.jpeg "Hackers (1995)")
+[![Poster for Security Training for Everyone Part III (3)](/assets/posters/2020_for_everyone_part_iii_poster.003.jpeg)](/assets/posters/2020_for_everyone_part_iii_poster.003.jpeg "WarGames (1983)")
+[![Poster for Security Training for Everyone Part III (4)](/assets/posters/2020_for_everyone_part_iii_poster.004.jpeg)](/assets/posters/2020_for_everyone_part_iii_poster.004.jpeg "Tron (1982)")
+[![Poster for Security Training for Everyone Part III (5)](/assets/posters/2020_for_everyone_part_iii_poster.005.jpeg)](/assets/posters/2020_for_everyone_part_iii_poster.005.jpeg "Ferris Bueller's Day Off (1986)")
+[![Poster for Security Training for Everyone Part III (6)](/assets/posters/2020_for_everyone_part_iii_poster.006.jpeg)](/assets/posters/2020_for_everyone_part_iii_poster.006.jpeg "Catch Me If You Can (2002)")
+[![Poster for Security Training for Everyone Part IV](/assets/posters/2021_security_training_poster.jpeg)](/assets/posters/2021_security_training_poster.jpeg "They Live (1988)")
+
+!!!question "Spotted a Problem?"
+    Security is hard, and we're not perfect. There may be mistakes or misunderstandings in our training material. If you find a problem, please help us correct it! This project is [open-source on GitHub](https://github.com/pagerduty/security-training) and we appreciate all friendly contributions.
