@@ -35,51 +35,56 @@ main article details.standalone {
   }
 }
 
-/* Display slide cover images side by side. */
-main article h2 + p + p {
+/* Curve corners of images. */
+main article img {
+  width: auto;
+  border-radius: 4px;
+}
+
+/* Display slide cover images and posters side by side. */
+main article h2 + p + p,
+main article h2 + p + p + p + p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-main article h2 + p + p a {
+/* For trainings, 2 to a line */
+main article h2 + p + p a,
+main article h2 + p + p + p + p a {
   flex: 0 0 calc(50% - .5em);
   border-bottom: none;
   padding-right: .5em;
 }
 
-main article h2 + p + p img {
-  width: auto;
-  border-radius: 4px;
-}
-
-/* Except on smaller screens. */
-@media only screen and (max-width: 720px) {
-  main article h2 + p + p a {
-    flex: 0 0 100%;
-    margin-bottom: 1em;
-  }
-
-  main article h2 + p + p a:last-of-type {
-    margin-bottom: 0em;
-  }
-}
-
-/* Posters should be three in a row. */
+/* For 2018/2019 posters, 3 to a line */
 main article #posters + p + p a {
   flex: 0 0 calc(33.33% - .5em);
-  border-bottom: none;
-  padding-right: .5em;
+}
+
+/* For 2020/2021 posters, 7 to a line */
+main article #posters + p + p + p + p a {
+  flex: 0 0 calc(14.285% - .5em);
+}
+
+/* Add a border since some have backgrounds matching the page. */
+main article #posters + p + p + p + p a img {
+  border: 1px solid #eee;
 }
 
 /* Except on smaller screens. */
 @media only screen and (max-width: 720px) {
-  main article #posters + p + p a {
+  main article h2 + p + p a,
+  main article #posters + p + p a,
+  main article #posters + p + p + p + p a {
     flex: 0 0 100%;
     margin-bottom: 1em;
+    padding-right: 0em;
   }
 
-  main article #posters + p + p a:last-of-type {
+  main article h2 + p + p a:last-of-type,
+  main article #posters + p + p a:last-of-type,
+  main article #posters + p + p + p + p a:last-of-type {
     margin-bottom: 0em;
   }
 }
