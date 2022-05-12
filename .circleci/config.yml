@@ -14,8 +14,7 @@ commands:
           # This is needed due to the size of some of the assets for this particular project. The PDFs/Keynote files, etc.
           name: Install Git LFS
           command: |
-            apt install git-lfs
-            git lfs install
+            sudo apt install git-lfs && sudo git lfs install
       - checkout
       - run:
           name: Install Dependencies
