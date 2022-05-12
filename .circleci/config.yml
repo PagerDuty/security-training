@@ -12,8 +12,10 @@ commands:
     steps:
       - run:
           # This is needed due to the size of some of the assets for this particular project. The PDFs/Keynote files, etc.
+          # yolo script from https://github.com/git-lfs/git-lfs/wiki/Installation#debian-and-ubuntu
           name: Install Git LFS
           command: |
+            curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
             sudo apt install git-lfs && sudo git lfs install
       - checkout
       - run:
