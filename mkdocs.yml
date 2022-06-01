@@ -21,6 +21,7 @@ nav:
   - Overview: 'index.md'
   - For Everyone: 'for_everyone/index.md'
   - For Everyone (Part II): 'for_everyone_part_ii/index.md'
+  - For Everyone (Part III): 'for_everyone_part_iii/index.md'
   - For Engineers: 'for_engineers/index.md'
 
 # Analytics
@@ -36,6 +37,7 @@ markdown_extensions:
   - pymdownx.details:
   - pymdownx.extra:
   - pymdownx.mark:
+  - pymdownx.caret:
   - pymdownx.tilde:
   - pymdownx.highlight:
   - pymdownx.superfences:

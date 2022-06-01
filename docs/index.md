@@ -15,14 +15,17 @@ To learn more about the philosophy behind our security training program, and why
 
 ## Security Training For Everyone
 
-Our "For Everyone" course covers a variety of general security topics relevant to all employees. It is delivered annually to all PagerDuty employees, contractors, and interns. Since 2018 we have produced a new "part" each year in order to keep the material fresh for employees who have already been through the training. The overall lessons are the same, but we dive deeper into different topics each year. Click the slides below to view the relevant course,
+Our "For Everyone" course covers a variety of general security topics relevant to all employees. It is delivered annually to all PagerDuty employees, contractors, and interns. Since 2018 we have produced a new "part" each year in order to keep the material fresh for employees who have already been through the training. The overall lessons are the same, but we dive deeper into different topics each year. Click the slides below to view the relevant course, starting with ["For Everyone" in 2018](/for_everyone), then ["For Everyone Part II" in 2019](/for_everyone_part_ii), and most recently ["For Everyone Part III" in 2020](/for_everyone_part_iii).
 
 [![Security Training For Everyone](./slides/for_everyone/for_everyone.001.jpeg)](/for_everyone)
 [![Security Training For Everyone (Part II)](./slides/for_everyone_part_ii/for_everyone_part_ii.001.jpeg)](/for_everyone_part_ii)
+[![Security Training For Everyone (Part III)](./slides/for_everyone_part_iii/for_everyone_part_iii.001.jpeg)](/for_everyone_part_iii)
+
+If you're wondering when we publish the open-source versions, it generally ranges anywhere from a few weeks up to several years after the taining was delivered internally.
 
 ## Security Training For Engineers
 
-Our "For Engineers" course covers more technical security concepts relevant to those in the PagerDuty engineering department. While the topics are more technical in nature, the training is designed to be understood by anyone, whether you're a seasoned engineer or just starting out in your career. Click the slide below to view the course,
+Our "For Engineers" course covers more technical security concepts relevant to those in the PagerDuty engineering department. While the topics are more technical in nature, the training is designed to be understood by anyone, whether you're a seasoned engineer or just starting out in your career. We don't create a new version of this each year, so there is currently only one published version of the course, which you can enjoy by clicking the slide below.
 
 [![Security Training For Engineers](./slides/for_engineers/for_engineers.001.jpeg)](/for_engineers)
 

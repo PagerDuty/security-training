@@ -1816,6 +1816,11 @@ and deeply relevant questions such as,
 
 Not joking by the way, those are genuine questions we get on these vendor security questionnaires from customers. A global pandemic? Really?! I'm going to be home and hiding. Or I'll work remote that day.
 
+???+ comment "Presenter's Comment (2022)"
+    😬 Let's address the elephant in the room. This didn't age well. This training was written and delivered in May of 2019, before y'know... we had an actual global pandemic. Rest assured, I'm not clairvoyant (to my knowledge), however my predication of hiding at home and working remotely turned out to be pretty accurate.
+
+    The point being made was that questions like this are a bit silly for most organizations. If you think employees are going to prioritize the business over their own families during a global disaster, you're going to be disappointed. I'm hesitant to provide other examples of these types of questions though, considering what happened last time.
+
 So then of course, we get frustrated that we have to spend a week answering these obtuse and barely relevant questions, only for the customer to come back with a huge number of followup questions asking things like why we don't use a firewall appliance in our data center. Now we have to spend more time to explain that we don't have a data center and describe what AWS is and so on. Basically the process takes a really long time and gets extremely frustrating for everyone involved. The security team, the sales team, the customer, everyone.
 
 You'd think there's be a standard format for these questionnaires, so you can provide your answers once and share them with everyone. And there is! Except there are 20-30 different standards and everyone seems to use a different one or a different version. And some just send you a spreadsheet to fill in.
