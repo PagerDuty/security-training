@@ -49,10 +49,10 @@ main article h2 + p + p + p + p {
   justify-content: space-between;
 }
 
-/* For trainings, 2 to a line */
+/* For trainings, 3 to a line */
 main article h2 + p + p a,
 main article h2 + p + p + p + p a {
-  flex: 0 0 calc(50% - .5em);
+  flex: 0 0 calc(33.33% - .5em);
   border-bottom: none;
   padding-right: .5em;
 }
