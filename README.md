@@ -23,7 +23,7 @@ For local development on your native device,
 ### Docker
 For local development using Docker,
 
-1. Build the docker image and load it for immediate use. `docker build --load -t mkdocs .`
+1. Build the docker image and load it for immediate use. `docker build -t mkdocs .`
 1. Run the container and pass through your current working directory. `docker run -v $(pwd):/docs -p 127.0.0.1:8000:8000 mkdocs`
 1. You can now view the website in your browser at `http://127.0.0.1:8000`. The site will automatically update as you edit the code.
 

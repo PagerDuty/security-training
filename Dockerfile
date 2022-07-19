@@ -2,13 +2,17 @@
 # We may as well use the same image we use for actually deploying our sites.
 FROM circleci/python:3.9
 
+# switch from circleci user to root
+USER root
+
 # Dependencies
 RUN pip install mkdocs pymdown-extensions pygments
 
 # Install the PagerDuty theme.
 WORKDIR /tmp
-RUN git clone https://github.com/pagerduty/mkdocs-theme-pagerduty \
- cd mkdocs-theme-pagerduty && python3 setup.py install
+RUN git clone https://github.com/pagerduty/mkdocs-theme-pagerduty
+WORKDIR /tmp/mkdocs-theme-pagerduty
+RUN python3 setup.py install
 
 # Set our working directory and user
 WORKDIR /docs
