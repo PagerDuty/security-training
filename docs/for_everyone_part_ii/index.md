@@ -552,7 +552,7 @@ The main points of that were that your passwords need to be,
 * Unique
 * Private
 
-So make them as long as you can possible make them. Unfortunately some websites don't allow you to make them too long, so you'll just need to play by their rules. They should be as random as you can make it. Have a computer generate the password for you. A different password for every single login you have, and never ever share them without anyone. No one here is ever going to ask for your password, and if they do you can safely ignore the request.
+So make them as long as you can possible make them. Unfortunately some websites don't allow you to make them too long, so you'll just need to play by their rules. They should be as random as you can make it. Have a computer generate the password for you. A different password for every single login you have, and never ever share them with anyone. No one here is ever going to ask for your password, and if they do you can safely ignore the request.
 
 ---
 
@@ -1606,7 +1606,7 @@ Then we have **Business Data** which is anything used to operate the business. E
 <input type="checkbox" id="145" /><label for="145">![145](/slides/for_everyone_part_ii/for_everyone_part_ii.145.jpeg)</label>
 _145. Customer data._
 
-And the finally, our most protected asset is **Customer Data**. This is anything that the customer gives us.
+And then finally, our most protected asset is **Customer Data**. This is anything that the customer gives us.
 
 It's worth noting that even though it's called "Customer" data, a user doesn't have to be a paying customer of our service for their data to be classified as such. Customer Data is any data given to us by a user of our product, whether they're a paying user, a trial user, or a prospect reaching out to ask questions.
 
@@ -1638,7 +1638,7 @@ We have our **General** pricing plan, where you can access information, store it
 
 We have our **Business Data** plan, only $29 per user per month. This has a lot more protections in place, as we require things like encryption and privacy controls.
 
-And then we have our most popular plan, the **Customer Data** plan. Unfortunately this plan can be a bit more expensive, anywhere up to about $23 million if we violate GDPR, or if we were to lost or leak any customer data. So as you can imagine, we have a few more restrictions in place there. So please please please protect our customer data.
+And then we have our most popular plan, the **Customer Data** plan. Unfortunately this plan can be a bit more expensive, anywhere up to about $23 million if we violate GDPR, or if we were to lose or leak any customer data. So as you can imagine, we have a few more restrictions in place there. So please please please protect our customer data.
 
 If you're not sure what type of data something is, please don't hesitate to ask us. It's also a best practice to treat something as if it were customer data until you know for sure that it's not.
 
@@ -1746,7 +1746,7 @@ So it's very convenient from our point of view, and gives us a lot of extra visi
 <input type="checkbox" id="157" /><label for="157">![157](/slides/for_everyone_part_ii/for_everyone_part_ii.157.jpeg)</label>
 _157. Restrict access to only those who need it._
 
-And try to ensure you're restricting access only to the people who need access to the file. Don't make it where anyone who knows the link can access the file. Because if that link gets leaked everyone's going to be able to view it. If someone tweets that link out and it'll be copied very quickly.
+And try to ensure you're restricting access only to the people who need access to the file. Don't make it where anyone who knows the link can access the file. Because if that link gets leaked everyone's going to be able to view it. If someone tweets that link out, it'll be copied very quickly.
 
 ---
 
