@@ -1959,7 +1959,7 @@ You'll be surprised how quickly this will stick after you've done that.
 <input type="checkbox" id="181" /><label for="181">![181](../slides/for_everyone_part_iii/for_everyone_part_iii.181.jpeg)</label>
 _181. Like lines on a chalkboard._
 
-I won't like, it can seem like a bit of a chore at first, it might feel like you're writing lines on a chalkboard. But you'll be amazed at how quickly you're able to remember really complicated passwords this way. Soon enough muscle memory will kick in and you'll have it perfectly memorized. And remember, you only have to do this for one password, your master password. Every other password will be protected by your password manager.
+I won't lie, it can seem like a bit of a chore at first, it might feel like you're writing lines on a chalkboard. But you'll be amazed at how quickly you're able to remember really complicated passwords this way. Soon enough muscle memory will kick in and you'll have it perfectly memorized. And remember, you only have to do this for one password, your master password. Every other password will be protected by your password manager.
 
 Please don't use this exact password though, because obviously this one is now public.
 
