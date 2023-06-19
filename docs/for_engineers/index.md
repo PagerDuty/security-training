@@ -678,7 +678,7 @@ It's also important to reevaluate your "cost" value every so often. It's no good
 <input type="checkbox" id="073" /><label for="073">![073](../slides/for_engineers/for_engineers.073.jpeg)</label>
 _073. Bcrypt example._
 
-Here's an example of how to use `bcrypt` in Ruby. That `$` delimeted string it gives you has all of the necessary information as part of it. The algorithm being used `2a`, the cost/work factor `13`, and a salt and resultant hash. So it takes care of all the details for you.
+Here's an example of how to use `bcrypt` in Ruby. That `$` delimited string it gives you has all of the necessary information as part of it. The algorithm being used `2a`, the cost/work factor `13`, and a salt and resultant hash. So it takes care of all the details for you.
 
 ---
 
